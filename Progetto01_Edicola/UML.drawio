@@ -1,0 +1,109 @@
+<mxfile host="Electron" modified="2024-03-10T14:03:11.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="_YrLi0BL_XbggPY68p9I" version="23.1.5" type="device">
+  <diagram name="Pagina-1" id="yd6MfCzgqIogwa6BIh7V">
+    <mxGraphModel dx="1257" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r599oP4MShEnSo4Chx0L-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" parent="1" source="r599oP4MShEnSo4Chx0L-1" target="r599oP4MShEnSo4Chx0L-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-1" value="&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;Pubblicazione" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-1150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r599oP4MShEnSo4Chx0L-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="-670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="-1140" />
+              <mxPoint x="790" y="-1140" />
+              <mxPoint x="790" y="-740" />
+              <mxPoint x="390" y="-740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-2" value="- Id: int&lt;br&gt;- tipo: string&lt;br&gt;- titolo: string&lt;br&gt;- categoria: string&lt;div style=&quot;&quot;&gt;- dataPubblicazione: string&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- stock: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-1120" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-3" value="ToString()&lt;br&gt;ToCSV()&lt;br&gt;ToSearch()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-1020" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-4" value="Giornale" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-5" value="Rivista" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="-910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-6" value="ToString()&lt;br&gt;ToCSV()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.54;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="r599oP4MShEnSo4Chx0L-4" target="r599oP4MShEnSo4Chx0L-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.54;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" parent="1" source="r599oP4MShEnSo4Chx0L-5" target="r599oP4MShEnSo4Chx0L-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-13" value="Edicola" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-1150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-14" value="- Inventario: [Pubblicazione]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-1120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r599oP4MShEnSo4Chx0L-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ checkFiles()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ stampaTopSellers()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ overwrite(string path)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getUnusedIDInventario()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getUnusedIDClienti()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ aggiungiPubblicazione()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ rimuoviPubblicazioni()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ updateStock()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ stampaInventario()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ svuotaInventario()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ vendiPubblicazione&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ storicoVendite()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ cercaTermine()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ cercaParola()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ filtraPerStock()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ aggiungiSottoscrizione()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ rimuoviSottoscrizione()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ mostraSottoscrizioni()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-1080" width="160" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="gZ3ipLJQGSqPZ_EzeQ---1" target="r599oP4MShEnSo4Chx0L-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-750" />
+              <mxPoint x="320" y="-750" />
+              <mxPoint x="320" y="-1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---1" value="Vendita" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-664" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---2" value="- dataVendita: string&lt;br&gt;- pubblicazioneVenduta: string" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-634" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---3" value="+ Vendita(pubblicazione)&lt;br&gt;+ Vendita(pubblicazione, data)&lt;br&gt;+ ToString()&lt;br&gt;+ ToCSV()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-574" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="gZ3ipLJQGSqPZ_EzeQ---5" target="r599oP4MShEnSo4Chx0L-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="-647" />
+              <mxPoint x="530" y="-480" />
+              <mxPoint x="40" y="-480" />
+              <mxPoint x="40" y="-780" />
+              <mxPoint x="280" y="-780" />
+              <mxPoint x="280" y="-1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---5" value="Clienti" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-664" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---6" value="- id: int&lt;br&gt;- quantitaSottoscrizione: int&lt;br&gt;- nome: string&lt;br&gt;- cognome: string&lt;br&gt;- listaSottoscrizioni: [Pubblicazione]" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-630" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---7" value="+ ToString()&lt;br&gt;+ToCSV()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-550" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZ3ipLJQGSqPZ_EzeQ---9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="gZ3ipLJQGSqPZ_EzeQ---1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="-740" as="sourcePoint" />
+            <mxPoint x="260" y="-740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="-740" />
+              <mxPoint x="270" y="-650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
