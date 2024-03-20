@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\dal\\librodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\dal\\librodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\dal\\prestitodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\dal\\prestitodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|c:\\programmazione\\progetti\\progettodb01_prestitolibri\\progetto_prestitolibri\\progetto_prestitolibri\\utilities\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A8A16B-FCDF-4436-878A-20E3057911CF}|Progetto_PrestitoLibri\\Progetto_PrestitoLibri.csproj|solutionrelative:progetto_prestitolibri\\utilities\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Program.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\Program.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Program.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:37:05.347Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Models\\Utente.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\Models\\Utente.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Models\\Utente.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\Models\\Utente.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:38:50.018Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\Models\\Libro.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Models\\Libro.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\Models\\Libro.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:38:54.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Prestito.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Models\\Prestito.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\Models\\Prestito.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Models\\Prestito.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\Models\\Prestito.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:39:02.806Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\IDal.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\DAL\\IDal.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\IDal.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\DAL\\IDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:39:49.353Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UtenteDAL.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\UtenteDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\DAL\\UtenteDAL.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\UtenteDAL.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\DAL\\UtenteDAL.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAiwLUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:39:23.202Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibroDAL.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\LibroDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\DAL\\LibroDAL.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\LibroDAL.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\DAL\\LibroDAL.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAmwMkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:39:32.772Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestitoDAL.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\PrestitoDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\DAL\\PrestitoDAL.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\DAL\\PrestitoDAL.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\DAL\\PrestitoDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:39:40.507Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appSettings.json",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\appSettings.json",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\appSettings.json",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\appSettings.json",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\appSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T14:50:58.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Utilities\\Config.cs",
+              "RelativeDocumentMoniker": "Progetto_PrestitoLibri\\Utilities\\Config.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoDB01_PrestitoLibri\\Progetto_PrestitoLibri\\Progetto_PrestitoLibri\\Utilities\\Config.cs",
+              "RelativeToolTip": "Progetto_PrestitoLibri\\Utilities\\Config.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwAwAAADjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:50:15.41Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
