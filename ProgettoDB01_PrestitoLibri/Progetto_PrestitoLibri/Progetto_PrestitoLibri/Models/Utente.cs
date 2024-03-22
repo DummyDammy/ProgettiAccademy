@@ -12,6 +12,7 @@ namespace Progetto_PrestitoLibri.Models
         public string? Nome { get; set; }
         public string? Cognome { get; set; }
         public string? Email {  get; set; }
+        public List<Prestito> Prestiti {  get; set; } = new List<Prestito>();
 
         public override string ToString()
         {

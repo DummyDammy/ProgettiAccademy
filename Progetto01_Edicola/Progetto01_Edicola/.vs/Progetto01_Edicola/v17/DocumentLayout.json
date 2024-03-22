@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\classes\\pubblicazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\classes\\pubblicazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\classes\\edicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\classes\\edicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\classes\\vendite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Program.cs",
               "RelativeDocumentMoniker": "Progetto01_Edicola\\Program.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Program.cs",
               "RelativeToolTip": "Progetto01_Edicola\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwEIAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwEwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T08:11:23.687Z",
               "IsPinned": true,
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edicola.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Edicola.cs",
               "RelativeDocumentMoniker": "Progetto01_Edicola\\Classes\\Edicola.cs",
@@ -65,12 +65,11 @@
               "ViewState": "AQIAAA8CAAAAAAAAAAAuwDACAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T08:40:05.819Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pubblicazione.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Pubblicazione.cs",
               "RelativeDocumentMoniker": "Progetto01_Edicola\\Classes\\Pubblicazione.cs",

@@ -8,6 +8,7 @@ namespace Progetto_PrestitoLibri
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Directory.GetCurrentDirectory());
             UtenteDAL.getInstance().findAll();
             ////UtenteDAL.getInstance().insert(new Utente() { Nome = "Utente3Nome", Cognome = "Utente3Cognome", Email = "utente3@email.com" });
             ////Console.WriteLine(UtenteDAL.getInstance().findById(1));

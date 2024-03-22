@@ -43,7 +43,7 @@ namespace Progetto_PrestitoLibri.DAL
 
                     con.Close();
                 }
-                catch (Exception) { Console.WriteLine("Utente non isnerito"); }
+                catch (Exception ex) { Console.WriteLine($"Utente non isnerito"); }
                 finally { con.Close(); }
 
             }
@@ -79,7 +79,7 @@ namespace Progetto_PrestitoLibri.DAL
 
                     con.Close();
                 }
-                catch (Exception) { Console.WriteLine("Utente non isnerito"); }
+                catch (Exception ex) { Console.WriteLine($"Utente non inserito \n\n{ex}"); }
                 finally { con.Close(); }
             }
 
@@ -101,13 +101,12 @@ namespace Progetto_PrestitoLibri.DAL
                     con.Open();
 
                     SqlDataReader reader = cmd.ExecuteReader();
-                    while (reader.Read())
-                    {
-                        utente.Id = Convert.ToInt32(reader[0]);
-                        utente.Nome = reader[1].ToString();
-                        utente.Cognome = reader[2].ToString();
-                        utente.Email = reader[3].ToString();
-                    }
+                    reader.Read();
+                    
+                    utente.Id = Convert.ToInt32(reader[0]);
+                    utente.Nome = reader[1].ToString();
+                    utente.Cognome = reader[2].ToString();
+                    utente.Email = reader[3].ToString();                    
 
                     con.Close();
                 }

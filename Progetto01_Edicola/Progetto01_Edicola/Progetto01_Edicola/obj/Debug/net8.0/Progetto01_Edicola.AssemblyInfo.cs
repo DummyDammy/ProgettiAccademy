@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Progetto01_Edicola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7746ffb054e6c84b25218cc02cf003ec3e2ee366")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df235becf68bed451e859905de0da0667d84a666")]
 [assembly: System.Reflection.AssemblyProductAttribute("Progetto01_Edicola")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Progetto01_Edicola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

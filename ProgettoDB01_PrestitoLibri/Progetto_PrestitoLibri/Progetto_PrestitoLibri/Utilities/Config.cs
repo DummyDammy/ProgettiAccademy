@@ -10,7 +10,7 @@ namespace Progetto_PrestitoLibri.Utilities
     internal class Config
     {
         private static Config? istanza;
-        private static string? connectionString = "Server=ACADEMY2024-16\\SQLEXPRESS;Database=progetto04_PrestitiLibri;User Id=academy;Password=academy!;MultipleActiveResultSets=true;Encrypt=false;TrustServerCertificate=false";
+        private string? connectionString;
 
         public static Config getIstanza()
         {
@@ -19,26 +19,19 @@ namespace Progetto_PrestitoLibri.Utilities
 
             return istanza;
         }
+        Config(){}
 
-        private Config()
-        {
-
-        }
         public string? GetConnectionString()
         {
-//            if (connectionString == null)
-//            {
-//                ConfigurationBuilder builder = new ConfigurationBuilder();
-//                builder.SetBasePath(Directory.GetCurrentDirectory());
-//                builder.AddJsonFile("appSettings.json", optional: false, reloadOnChange: false);
+            if (connectionString is null)
+            {
+                ConfigurationBuilder builder = new ConfigurationBuilder();
+                builder.SetBasePath(Directory.GetCurrentDirectory());
+                builder.AddJsonFile("appSettings.json", optional: false, reloadOnChange: false);
 
-//                IConfiguration configuration = builder.Build();
-//#if DEBUG
-//                connectionString = configuration.GetConnectionString("ServerLocale");
-//#else
-//                connectionString = configuration.GetConnectionString("ServerRemota");
-//#endif
-//            }
+                IConfiguration configuration = builder.Build();
+                connectionString = configuration.GetConnectionString("ServerLocale");
+            }
 
             return connectionString;
         }

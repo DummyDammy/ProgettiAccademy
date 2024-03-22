@@ -9,8 +9,8 @@ namespace Progetto_PrestitoLibri.DAL
     internal interface IDal<T>
     {
         bool insert(T t);
-        List<T> findAll();
-        T findById(int id);
+        List<T>? findAll();
+        T? findById(int id);
         bool deleteById(int id);
         bool update(T t);
     }

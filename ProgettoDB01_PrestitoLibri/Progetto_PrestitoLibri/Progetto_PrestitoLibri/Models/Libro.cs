@@ -12,7 +12,7 @@ namespace Progetto_PrestitoLibri.Models
         public string? Titolo {  get; set; }
         public DateTime? DataPubblicazione { get; set; }
         public bool isDisponibile { get; set; } = true;
-
+        public List<Prestito> Prestiti { get; set; } = new List<Prestito>();
         public override string ToString()
         {
             return $"{Id} {Titolo} {DataPubblicazione} {isDisponibile}";

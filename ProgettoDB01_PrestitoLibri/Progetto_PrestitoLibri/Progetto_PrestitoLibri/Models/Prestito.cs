@@ -11,7 +11,7 @@ namespace Progetto_PrestitoLibri.Models
         public int? Id { get; set; }
         public DateTime? DataPrestito { get; set; }
         public DateTime? DataRitorno { get; set; }
-        public int UtenteRIF { get; set; }
-        public int LibroRIF { get; set; }
+        public Utente? UtenteRIF { get; set; }
+        public Libro? LibroRIF { get; set; }
     }
 }

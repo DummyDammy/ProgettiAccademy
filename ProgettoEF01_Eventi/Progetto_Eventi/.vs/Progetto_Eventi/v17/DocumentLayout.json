@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\classes\\sottomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\classes\\sottomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\models\\risorsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\models\\risorsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\models\\partecipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\models\\partecipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\dal\\risorsadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\dal\\risorsadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\dal\\eventodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\dal\\eventodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Progetto05EventiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Progetto_Eventi\\Models\\Progetto05EventiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|c:\\programmazione\\progetti\\progettoef01_eventi\\progetto_eventi\\progetto_eventi\\dal\\partecipantedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AEA92F1-B4DA-42C6-B97F-7231E83DF7AC}|Progetto_Eventi\\Progetto_Eventi.csproj|solutionrelative:progetto_eventi\\dal\\partecipantedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Program.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\Program.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Program.cs",
+              "RelativeToolTip": "Progetto_Eventi\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:29:28.787Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sottomenu.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Classes\\Sottomenu.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\Classes\\Sottomenu.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Classes\\Sottomenu.cs",
+              "RelativeToolTip": "Progetto_Eventi\\Classes\\Sottomenu.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:58:43.868Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Progetto05EventiContext.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Progetto05EventiContext.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\Models\\Progetto05EventiContext.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Progetto05EventiContext.cs",
+              "RelativeToolTip": "Progetto_Eventi\\Models\\Progetto05EventiContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:35:11.147Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Partecipante.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Partecipante.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\Models\\Partecipante.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Partecipante.cs",
+              "RelativeToolTip": "Progetto_Eventi\\Models\\Partecipante.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:35:32.762Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Risorsa.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Risorsa.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\Models\\Risorsa.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Risorsa.cs",
+              "RelativeToolTip": "Progetto_Eventi\\Models\\Risorsa.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:35:40.1Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\Models\\Evento.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\Models\\Evento.cs",
+              "RelativeToolTip": "Progetto_Eventi\\Models\\Evento.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:35:46.058Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\IDal.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\DAL\\IDal.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\IDal.cs",
+              "RelativeToolTip": "Progetto_Eventi\\DAL\\IDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:36:53.905Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PartecipanteDAL.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\PartecipanteDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\DAL\\PartecipanteDAL.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\PartecipanteDAL.cs",
+              "RelativeToolTip": "Progetto_Eventi\\DAL\\PartecipanteDAL.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:39:09.551Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RisorsaDAL.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\RisorsaDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\DAL\\RisorsaDAL.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\RisorsaDAL.cs",
+              "RelativeToolTip": "Progetto_Eventi\\DAL\\RisorsaDAL.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAArwCQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:39:34.296Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventoDAL.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\EventoDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_Eventi\\DAL\\EventoDAL.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF01_Eventi\\Progetto_Eventi\\Progetto_Eventi\\DAL\\EventoDAL.cs",
+              "RelativeToolTip": "Progetto_Eventi\\DAL\\EventoDAL.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAqwGEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:41:02.307Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
