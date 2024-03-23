@@ -107,5 +107,53 @@ namespace Progetto_Eventi.DAL
             }
             return controllo;
         }
+
+        public List<Partecipante> findAllByEvento(Evento t)
+        {
+            using (var context = new Progetto05EventiContext())
+            {
+                try
+                {
+                    return context.Partecipantes.Include(p => p.Eventos).Where(p => p.Eventos.Contains(t)).ToList();
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return new List<Partecipante>();
+        }
+
+        public bool assignPartecipante(int id, Evento t)
+        {
+            bool controllo = false;
+
+            using (var context = new Progetto05EventiContext())
+            {
+                try
+                {
+                    Partecipante partecipante = findById(id);
+                    partecipante.Eventos.Add(t);
+                    t.PartecipanteRifNavigation = partecipante;
+                    context.Eventos.Add(new Evento() { Nome = t.Nome, Luogo = t.Luogo, Capacita = t.Capacita, DataEvento = t.DataEvento, PartecipanteRif = id});
+                    context.SaveChanges();
+                    controllo = true;
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return controllo;
+        }
+
+        public List<Partecipante> findAllWithEventi()
+        {
+
+            using (var context = new Progetto05EventiContext())
+            {
+                try
+                {
+                    return context.Partecipantes.Include(p => p.Eventos).ToList();
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return new List<Partecipante>();
+        }
+
     }
 }

@@ -107,5 +107,51 @@ namespace Progetto_Eventi.DAL
             }
             return controllo;
         }
+
+        public List<Risorsa> findAllByEvento(Evento t)
+        {
+            using (var context = new Progetto05EventiContext())
+            {
+                try
+                {
+                    return context.Risorsas.Include(r => r.Eventos).Where(r => r.Eventos.Contains(t)).ToList();
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return new List<Risorsa>();
+        }
+
+        public bool assignRisorsa(int id, Evento t)
+        {
+            bool controllo = false;
+
+            using (var context = new Progetto05EventiContext())
+            {
+                try
+                {
+                    Risorsa risorsa = findById(id);
+                    risorsa.Eventos.Add(t);
+                    t.RisorsaRifNavigation = risorsa;
+                    context.Eventos.Add(new Evento() { Nome = t.Nome, Luogo = t.Luogo, Capacita = t.Capacita, DataEvento = t.DataEvento, RisorsaRif = id });
+                    context.SaveChanges();
+                    controllo = true;
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return controllo;
+        }
+
+        public List<Risorsa> findAllWithEventi()
+        {
+            using (var context = new Progetto05EventiContext())
+            {
+                try
+                {
+                    return context.Risorsas.Include(p => p.Eventos).ToList();
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return new List<Risorsa>();
+        }
     }
 }

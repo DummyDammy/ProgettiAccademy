@@ -18,4 +18,10 @@ public partial class Risorsa
     public string Fornitore { get; set; } = null!;
 
     public virtual ICollection<Evento> Eventos { get; set; } = new List<Evento>();
+
+    public string ToCSV()
+    {
+        return $"{RisorsaId};{Tipo};{Nome};{Quantita};{Prezzo};{Fornitore}";
+    }
 }
+

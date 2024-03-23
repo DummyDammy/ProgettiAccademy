@@ -22,4 +22,10 @@ public partial class Evento
     public virtual Partecipante? PartecipanteRifNavigation { get; set; }
 
     public virtual Risorsa? RisorsaRifNavigation { get; set; }
+
+    public string ToCSV()
+    {
+        return $"{EventoId};{Nome};{DataEvento};{Luogo};{Capacita};{PartecipanteRif};{RisorsaRif}";
+    }
 }
+

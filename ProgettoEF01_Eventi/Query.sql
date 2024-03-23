@@ -33,3 +33,13 @@ FOREIGN KEY (risorsaRIF) REFERENCES Risorsa(risorsaID)
 );
 
 SELECT * FROM Partecipante;
+
+SELECT * FROM Risorsa;
+
+SELECT * FROM Evento;
+
+SELECT * FROM Evento
+	JOIN Partecipante ON Evento.partecipanteRIF = Partecipante.partecipanteID;
+
+SELECT * FROM Evento
+	JOIN Risorsa ON Evento.risorsaRIF = Risorsa.risorsaID;

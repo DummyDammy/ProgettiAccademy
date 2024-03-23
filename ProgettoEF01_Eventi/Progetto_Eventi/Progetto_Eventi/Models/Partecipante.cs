@@ -14,4 +14,9 @@ public partial class Partecipante
     public string Email { get; set; } = null!;
 
     public virtual ICollection<Evento> Eventos { get; set; } = new List<Evento>();
+
+    public string ToCSV()
+    {
+        return $"{PartecipanteId};{Nome};{Cognome};{Email}";
+    }
 }
