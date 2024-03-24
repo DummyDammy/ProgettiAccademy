@@ -225,33 +225,29 @@ namespace Progetto01_Edicola.Classes
         //Sovrascrivere il file .txt in input
         public static void overwrite(string path)
         {
-            //Lista inventario
-            if (path.Equals(pathInventario))
+            try
             {
-                try
+                using (StreamWriter sw = new StreamWriter("C:\\Users\\Utente\\Desktop\\Eventi.txt"))
                 {
-                    using (StreamWriter sw = new StreamWriter(path))
+                    foreach (Pubblicazione pubblicazione in Inventario)
                     {
-                        foreach (Pubblicazione pubblicazione in Inventario)
+                        if (pubblicazione != null &&
+                            pubblicazione.GetType() == typeof(Giornale))
                         {
-                            if (pubblicazione != null &&
-                                pubblicazione.GetType() == typeof(Giornale))
-                            {
-                                Giornale temp = (Giornale)pubblicazione;
-                                sw.WriteLine(temp.ToCSV());
-                            }
+                            Giornale temp = (Giornale)pubblicazione;
+                            sw.WriteLine(temp.ToCSV());
+                        }
 
-                            if (pubblicazione != null &&
-                                pubblicazione.GetType() == typeof(Rivista))
-                            {
-                                Rivista temp = (Rivista)pubblicazione;
-                                sw.WriteLine(temp.ToCSV());
-                            }
+                        if (pubblicazione != null &&
+                            pubblicazione.GetType() == typeof(Rivista))
+                        {
+                            Rivista temp = (Rivista)pubblicazione;
+                            sw.WriteLine(temp.ToCSV());
                         }
                     }
                 }
-                catch { }
             }
+            catch { }
 
             //Lista sottoscrizioni
             if (path.Equals(pathSottoscrizioni))

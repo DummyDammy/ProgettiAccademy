@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\classes\\edicola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\classes\\pubblicazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\classes\\pubblicazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\classes\\pubblicazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|solutionrelative:progetto01_edicola\\classes\\pubblicazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B78AE99C-3B01-44D5-AC0B-D12444ABB670}|Progetto01_Edicola\\Progetto01_Edicola.csproj|c:\\programmazione\\progetti\\progetto01_edicola\\progetto01_edicola\\progetto01_edicola\\classes\\vendite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,16 +42,17 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Program.cs",
               "RelativeDocumentMoniker": "Progetto01_Edicola\\Program.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Program.cs",
               "RelativeToolTip": "Progetto01_Edicola\\Program.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEwAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T08:11:23.687Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -59,9 +60,9 @@
               "Title": "Edicola.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Edicola.cs",
               "RelativeDocumentMoniker": "Progetto01_Edicola\\Classes\\Edicola.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Edicola.cs",
-              "RelativeToolTip": "Progetto01_Edicola\\Classes\\Edicola.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAywNgBAAAnAAAA",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Edicola.cs*",
+              "RelativeToolTip": "Progetto01_Edicola\\Classes\\Edicola.cs*",
+              "ViewState": "AQIAALsAAAAAAAAAAAAuwOMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T08:40:05.819Z",
               "IsPinned": true,
@@ -69,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pubblicazione.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Pubblicazione.cs",
               "RelativeDocumentMoniker": "Progetto01_Edicola\\Classes\\Pubblicazione.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto01_Edicola\\Progetto01_Edicola\\Progetto01_Edicola\\Classes\\Pubblicazione.cs",
               "RelativeToolTip": "Progetto01_Edicola\\Classes\\Pubblicazione.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAmwAoAAAAtAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T08:45:20.539Z",
               "IsPinned": true,

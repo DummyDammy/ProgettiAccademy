@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\classes\\sottomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\classes\\sottomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\models\\risorsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\models\\risorsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\models\\partecipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\models\\partecipante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\dal\\risorsadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\dal\\risorsadal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\dal\\eventodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\dal\\eventodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\dal\\partecipantedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\dal\\partecipantedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|c:\\users\\utente\\desktop\\progettoef_gestioneeventi\\progetto_gestioneeventi\\progetto_gestioneeventi\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566BDE16-BC74-4138-A764-19BD005F94B4}|Progetto_GestioneEventi\\Progetto_GestioneEventi.csproj|solutionrelative:progetto_gestioneeventi\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Program.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Program.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwNAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:08:35.722Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sottomenu.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Classes\\Sottomenu.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\Classes\\Sottomenu.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Classes\\Sottomenu.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\Classes\\Sottomenu.cs",
+              "ViewState": "AQIAANsAAAAAAAAAAAAmwH4DAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:15:10.41Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Partecipante.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Models\\Partecipante.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\Models\\Partecipante.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Models\\Partecipante.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\Models\\Partecipante.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:12:21.403Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Models\\Evento.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\Models\\Evento.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA9wB4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:12:28.58Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Risorsa.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Models\\Risorsa.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\Models\\Risorsa.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\Models\\Risorsa.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\Models\\Risorsa.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwBwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:12:31.822Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\IDal.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\DAL\\IDal.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\IDal.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\DAL\\IDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:15:57.241Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PartecipanteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwEcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:16:15.996Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\EventoDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\DAL\\EventoDAL.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\EventoDAL.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\DAL\\EventoDAL.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAA0wEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:16:25.681Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RisorsaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\RisorsaDAL.cs",
+              "RelativeDocumentMoniker": "Progetto_GestioneEventi\\DAL\\RisorsaDAL.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\RisorsaDAL.cs",
+              "RelativeToolTip": "Progetto_GestioneEventi\\DAL\\RisorsaDAL.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:16:33.969Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
