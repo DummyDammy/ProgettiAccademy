@@ -1,0 +1,78 @@
+<mxfile host="Electron" modified="2024-03-24T11:50:30.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Fc9hqNqKT1Azd6rbSyQ6" version="24.1.0" type="device">
+  <diagram name="Pagina-1" id="Xs4LCTQ2g3gQoXR7LefU">
+    <mxGraphModel dx="726" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j97WTbpqLVJCXXTtme4U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="j97WTbpqLVJCXXTtme4U-1" target="j97WTbpqLVJCXXTtme4U-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="55" />
+              <mxPoint x="200" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-1" value="Partecipante" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-2" value="- PartecipanteId : int&lt;div&gt;- Nome : string&lt;/div&gt;&lt;div&gt;- Cognome : string&lt;/div&gt;&lt;div&gt;- Email : string&lt;/div&gt;&lt;div&gt;- EventoRifs : [Evento]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="100" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-3" value="+ ToString()&lt;div&gt;+ ToCSV()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="j97WTbpqLVJCXXTtme4U-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="j97WTbpqLVJCXXTtme4U-4" target="j97WTbpqLVJCXXTtme4U-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="85" />
+              <mxPoint x="560" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-4" value="Evento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318.5" y="40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-5" value="- EventoId : int&lt;div&gt;- Nome : string&lt;/div&gt;&lt;div&gt;- DataEvento : DateOnly&lt;/div&gt;&lt;div&gt;- Luogo : string&lt;/div&gt;&lt;div&gt;- Capacita : int&lt;/div&gt;&lt;div&gt;- PartecipanteRifs : [Partecipante]&lt;/div&gt;&lt;div&gt;- RisorsaRifs : [Risorsa]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="318.5" y="100" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-6" value="+ ToString()&lt;div&gt;+ ToCSV()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="319" y="220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-7" value="Risorsa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-8" value="- RisorsaId : int&lt;div&gt;- Tipo : string&lt;/div&gt;&lt;div&gt;- Nome : string&lt;/div&gt;&lt;div&gt;- Quantita : int&lt;/div&gt;&lt;div&gt;- Prezzo : decimal&lt;/div&gt;&lt;div&gt;- Fornitore : string&lt;/div&gt;&lt;div&gt;- EventoRifs : [Evento]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-9" value="+ ToString()&lt;div&gt;+ ToCSV()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="670" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="j97WTbpqLVJCXXTtme4U-7" target="j97WTbpqLVJCXXTtme4U-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="60" />
+              <mxPoint x="630" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-16" value="Sottomenu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-17" value="- instance : Sottomenu" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j97WTbpqLVJCXXTtme4U-18" value="+ AggiungiEvento()&lt;div&gt;+ RimuoviEventoById()&lt;/div&gt;&lt;div&gt;+ AggiornaEventoById()&lt;/div&gt;&lt;div&gt;+ EventiToList()&lt;/div&gt;&lt;div&gt;+ MostraPartecipantiEventi()&lt;/div&gt;&lt;div&gt;+MostraRisorseEventi()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ AggiungiPartecipante()&lt;/div&gt;&lt;div&gt;+ RimuoveOartecipanteById()&lt;/div&gt;&lt;div&gt;+ AssegnarePartecipante()&lt;/div&gt;&lt;div&gt;+ RimuovePartecipanteDaEvento()&lt;/div&gt;&lt;div&gt;+ PartecipantiToList()&lt;/div&gt;&lt;div&gt;+ MostraEventiPartecipanti()&lt;/div&gt;&lt;div&gt;+ AggiornaPartecipanteById()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ AggiungiRisorsa()&lt;/div&gt;&lt;div&gt;+ RimuoviRisorsaById()&lt;/div&gt;&lt;div&gt;+ ModificaRisorsaById()&lt;/div&gt;&lt;div&gt;+ AssegnaRisorsa()&lt;/div&gt;&lt;div&gt;+ RisroseToList()&lt;/div&gt;&lt;div&gt;+ MostraEventiRisorse()&lt;/div&gt;&lt;div&gt;+ RimuoviRisorsaDaEvento()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ saveCSV()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="190" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
