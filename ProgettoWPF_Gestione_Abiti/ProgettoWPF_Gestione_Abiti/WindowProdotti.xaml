@@ -94,9 +94,9 @@
 
                 <!--Top Buttons-->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Style="{StaticResource refreshButton}"  Margin="0 0 20 0" HorizontalAlignment="Right" Click="Refresh">
-                    <Icon:PackIconMaterial Kind="Refresh"></Icon:PackIconMaterial>
-                </Button>
+                    <Button Style="{StaticResource refreshButton}"  Margin="0 0 20 0" HorizontalAlignment="Right" Click="Refresh">
+                        <Icon:PackIconMaterial Kind="Refresh"></Icon:PackIconMaterial>
+                    </Button>
                     <Button Style="{StaticResource topButton}" Margin="0 0 0 0" HorizontalAlignment="Right" Click="Quit">
                         <Icon:PackIconMaterial Kind="Close"></Icon:PackIconMaterial>
                     </Button>

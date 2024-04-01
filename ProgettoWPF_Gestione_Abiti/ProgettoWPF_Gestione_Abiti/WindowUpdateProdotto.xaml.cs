@@ -46,7 +46,7 @@ namespace ProgettoWPF_Gestione_Abiti
         {
             try
             {
-                int prodottoId = WindowProdotti.selectedProdotto.ProdottoId;
+                int prodottoId = WindowProdotti.selectedProdotto.ProdottoId + 1;
 
                 string nome = txtNome.Text;
                 string marca = txtMarca.Text;
@@ -62,7 +62,7 @@ namespace ProgettoWPF_Gestione_Abiti
                 else
                 {
                     Prodotto prodotto = new Prodotto();
-                    ProdottoDAL.getInstance().update(new Prodotto() {ProdottoId = prodottoId, Nome = nome, Marca = marca, CategoriaRif = categoria, Descrizione = descrizione });
+                    ProdottoDAL.getInstance().update(new Prodotto() { ProdottoId = prodottoId, Nome = nome, Marca = marca, CategoriaRif = categoria, Descrizione = descrizione });
                 }
             }
             catch { MessageBox.Show("Errore"); }

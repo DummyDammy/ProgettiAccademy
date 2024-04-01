@@ -4,26 +4,17 @@
 winexe
 C#
 .cs
-D:\repository\Dammy\Academy\ProgettiAccademy\ProgettiAccademy\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\
 ProgettoWPF_Gestione_Abiti
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-<<<<<<< HEAD
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\App.xaml
 41243600310
 
 231402848902
 241-998240624
 MainWindow.xaml;WindowAddProdotto.xaml;WindowProdotti.xaml;WindowUpdateProdotto.xaml;
-=======
-D:\repository\Dammy\Academy\ProgettiAccademy\ProgettiAccademy\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\App.xaml
-11407045341
-
-20-295242631
-241466006360
-MainWindow.xaml;
->>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
 
 False
 
