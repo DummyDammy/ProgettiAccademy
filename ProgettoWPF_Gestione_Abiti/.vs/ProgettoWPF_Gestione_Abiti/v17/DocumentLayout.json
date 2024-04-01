@@ -1,38 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\",
+  "WorkspaceRootPath": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|d:\\repository\\dammy\\academy\\progettiaccademy\\progettiaccademy\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\windowutenti.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\windowutenti.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|d:\\repository\\dammy\\academy\\progettiaccademy\\progettiaccademy\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\windowutenti.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\windowutenti.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\windowordini.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\windowordini.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\dal\\prodottodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\dal\\prodottodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|c:\\programmazione\\progetti\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|d:\\repository\\dammy\\academy\\progettiaccademy\\progettiaccademy\\progettowpf_gestione_abiti\\progettowpf_gestione_abiti\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED631A10-1381-43E0-BB79-52596268156E}|ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj|solutionrelative:progettowpf_gestione_abiti\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\MainWindow.xaml",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml",
+              "ToolTip": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml",
               "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-27T13:29:59.48Z",
@@ -59,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\MainWindow.xaml.cs",
               "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvxYAAAAiAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvxcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T13:29:55.694Z",
               "IsPinned": true,
@@ -73,79 +53,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WindowUtenti.xaml.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml.cs",
-              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml.cs",
-              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADwv3UAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T15:49:00.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WindowUtenti.xaml",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml",
-              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml",
-              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\WindowUtenti.xaml",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\App.xaml",
+              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\App.xaml",
+              "ToolTip": "D:\\repository\\Dammy\\Academy\\ProgettiAccademy\\ProgettiAccademy\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\App.xaml",
+              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-27T15:48:56.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WindowOrdini.xaml.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\WindowOrdini.xaml.cs",
-              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\WindowOrdini.xaml.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\WindowOrdini.xaml.cs",
-              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\WindowOrdini.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T15:31:26.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UtenteDAL.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\DAL\\UtenteDAL.cs",
-              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\DAL\\UtenteDAL.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\DAL\\UtenteDAL.cs",
-              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\DAL\\UtenteDAL.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAA0wGMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T15:00:05.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProdottoDAL.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\DAL\\ProdottoDAL.cs",
-              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\DAL\\ProdottoDAL.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\DAL\\ProdottoDAL.cs",
-              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\DAL\\ProdottoDAL.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAUwHYAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T14:22:02.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Prodotto.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\Models\\Prodotto.cs",
-              "RelativeDocumentMoniker": "ProgettoWPF_Gestione_Abiti\\Models\\Prodotto.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\Models\\Prodotto.cs",
-              "RelativeToolTip": "ProgettoWPF_Gestione_Abiti\\Models\\Prodotto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBEAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T14:18:40.693Z",
+              "WhenOpened": "2024-04-01T11:18:48.755Z",
               "EditorCaption": ""
             }
           ]

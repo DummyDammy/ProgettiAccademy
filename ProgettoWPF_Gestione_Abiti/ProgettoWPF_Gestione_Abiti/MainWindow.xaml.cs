@@ -23,14 +23,34 @@ namespace ProgettoWPF_Gestione_Abiti
             InitializeComponent();
         }
 
-        private void Ordini_Click(object sender, RoutedEventArgs e)
+        void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            Main.Content = new WindowOrdini();
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                DragMove();
+            }
         }
 
-        private void Prodotti_Click(object sender, RoutedEventArgs e)
+        bool isMaximized = false;
+        void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            Main.Content = new WindowUtenti();
+            if (e.ClickCount == 2)
+            {
+                if (isMaximized)
+                {
+                    WindowState = WindowState.Normal;
+                    Width = 1080;
+                    Height = 720;
+
+                    isMaximized = false;
+                }
+
+                else
+                {
+                    WindowState = WindowState.Maximized;
+                    isMaximized = false;
+                }
+            }
         }
     }
 }
