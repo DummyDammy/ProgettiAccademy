@@ -106,5 +106,20 @@ namespace ProgettoWPF_GestioneAbiti.DAL
             }
             return controllo;
         }
+
+        public int findByName(string name)
+        {
+            using (var context = new Progetto06NegozioAbitiContext())
+            {
+                try
+                {
+                    Categorium? categoria = context.Categoria.Single(c => c.Nome == name);
+
+                    return categoria.CategoriaId;
+                }
+                catch (Exception ex) { Console.WriteLine(ex); }
+            }
+            return 0;
+        }
     }
 }

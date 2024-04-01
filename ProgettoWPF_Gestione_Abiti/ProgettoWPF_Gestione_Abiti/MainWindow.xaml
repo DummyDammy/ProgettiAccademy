@@ -1,16 +1,141 @@
 ﻿<Window x:Class="ProgettoWPF_Gestione_Abiti.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ProgettoWPF_Gestione_Abiti"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
-        <Frame HorizontalAlignment="Right"sss x:Name="Main"></Frame>
-        <StackPanel Width="200" HorizontalAlignment="Left">
-            <Button x:Name="Ordini" Content="Ordine" Click="Ordini_Click"></Button>
-            <Button x:Name="Prodotti" Content="Prodotti" Click="Prodotti_Click"></Button>
-        </StackPanel>
-    </DockPanel>
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    Height="720" Width="1080" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"
+    AllowsTransparency="True" Background="Transparent">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"></BooleanToVisibilityConverter>
+    </Window.Resources>
+
+    <Border Background="#eff2f7" CornerRadius="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--Main Menu-->
+            <Grid Background="#ff3333">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Button Margin="20 28 0 35" Style="{StaticResource topButton}" Background="Transparent" IsEnabled="False"></Button>
+
+                <Border Grid.Row="1" Background="#ff3333" CornerRadius="0 5 0 10">
+                    <DockPanel>
+                        <Border Width="100" Height="100" Padding="3" CornerRadius="100" DockPanel.Dock="Top" 
+                            HorizontalAlignment="Center" Background="Black" Margin="0 -30 0 0">
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="/assets/Logo.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+
+                        <TextBlock Text="Lego Armani" Foreground="White" FontSize="22" FontWeight="SemiBold" DockPanel.Dock="Top" TextAlignment="Center" Margin="0 10 0 10"></TextBlock>
+
+                        <Separator Margin="20" DockPanel.Dock="Top" Height="0.8" Background="#ffb0b0"></Separator>
+
+                        <StackPanel DockPanel.Dock="Top">
+                            <Button Style="{StaticResource menuButton}" Background="#ff5a5a" Foreground="White">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="Home" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Home" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Style="{StaticResource menuButton}" Click="ToProdottiWindow">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="Animation" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Prodotti" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="AccountMultiple" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Utenti" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="CalendarAccount" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Ordini" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15">
+                            <StackPanel Orientation="Horizontal">
+                                <Icon:PackIconMaterial Kind="Logout" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                <TextBlock Text="Esci" FontSize="20"></TextBlock>
+                            </StackPanel>
+                        </Button>
+                    </DockPanel>
+                </Border>
+            </Grid>
+
+            <!--Main Window-->
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--Top Buttons-->
+                <Button Style="{StaticResource topButton}" Margin="800,0,0,0" Click="Button_Click">
+                    <Icon:PackIconMaterial Kind="Close"></Icon:PackIconMaterial>
+                </Button>
+
+                <!--PageTitle-->
+                <TextBlock Text="Prodotti di moda" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0 40 0 0" HorizontalAlignment="Left" Foreground="Black"></TextBlock>
+                <Separator Height="1" Grid.Row="3" Background="#dae2ea" Margin="5"></Separator>
+
+                <Border Grid.Row="4"  Width="250" Height="250" Padding="0" CornerRadius="10" DockPanel.Dock="Top" 
+                     HorizontalAlignment="Left" VerticalAlignment="Top" Background="#eff2f7" Margin="0 10 0 0">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/assets/Vestito1.png"></ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Border>
+
+                <Border Grid.Row="4"  Width="200" Height="250" Padding="0" CornerRadius="10" DockPanel.Dock="Top" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Background="#eff2f7" Margin="550 10 0 0">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/assets/Vestito3.png"></ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Border>
+
+                <Border Grid.Row="5"  Width="250" Height="250" Padding="0" CornerRadius="10" DockPanel.Dock="Top" 
+                HorizontalAlignment="Left" VerticalAlignment="Top" Background="#eff2f7" Margin="0 10 0 0">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/assets/Vestito2.png"></ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Border>
+
+                <Border Grid.Row="5"  Width="230" Height="250" Padding="0" CornerRadius="10" DockPanel.Dock="Top" 
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Background="#eff2f7" Margin="540 10 0 0">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <ImageBrush ImageSource="/assets/Danny.png"></ImageBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Border>
+            </Grid>
+        </Grid>
+    </Border>
 </Window>

@@ -1,0 +1,143 @@
+﻿<Window x:Class="ProgettoWPF_Gestione_Abiti.WindowProdotti"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+    Height="720" Width="1080" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"
+    AllowsTransparency="True" Background="Transparent">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"></BooleanToVisibilityConverter>
+    </Window.Resources>
+
+    <Border Background="#eff2f7" CornerRadius="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--Main Menu-->
+            <Grid Background="#ff3333" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Button Margin="20 28 0 35" Style="{StaticResource topButton}" Background="Transparent" IsEnabled="False"></Button>
+
+                <Border Grid.Row="1" Background="#ff3333" CornerRadius="0 5 0 10">
+                    <DockPanel>
+                        <Border Width="100" Height="100" Padding="3" CornerRadius="100" DockPanel.Dock="Top" 
+                            HorizontalAlignment="Center" Background="Black" Margin="0 -30 0 0">
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="/assets/Logo.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </Border>
+
+                        <TextBlock Text="Lego Armani" Foreground="White" FontSize="22" FontWeight="SemiBold" DockPanel.Dock="Top" TextAlignment="Center" Margin="0 10 0 10"></TextBlock>
+
+                        <Separator Margin="20" DockPanel.Dock="Top" Height="0.8" Background="#ffb0b0"></Separator>
+
+                        <StackPanel DockPanel.Dock="Top">
+                            <Button Style="{StaticResource menuButton}" Click="Home">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="Home" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Home" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Style="{StaticResource menuButton}" Background="#ff5a5a"  Foreground="White">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="Animation" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Prodotti" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="AccountMultiple" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Utenti" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Style="{StaticResource menuButton}">
+                                <StackPanel Orientation="Horizontal">
+                                    <Icon:PackIconMaterial Kind="CalendarAccount" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                    <TextBlock Text="Ordini" FontSize="20"></TextBlock>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+                        <Button Style="{StaticResource menuButton}" VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="15">
+                            <StackPanel Orientation="Horizontal">
+                                <Icon:PackIconMaterial Kind="Logout" Style="{StaticResource menuButtonIcon}"></Icon:PackIconMaterial>
+                                <TextBlock Text="Esci" FontSize="20"></TextBlock>
+                            </StackPanel>
+                        </Button>
+                    </DockPanel>
+                </Border>
+            </Grid>
+
+            <!--Main Window-->
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="23*"></RowDefinition>
+                    <RowDefinition Height="249*"/>
+                    <RowDefinition Height="auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--Top Buttons-->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Style="{StaticResource refreshButton}"  Margin="0 0 20 0" HorizontalAlignment="Right" Click="Refresh">
+                    <Icon:PackIconMaterial Kind="Refresh"></Icon:PackIconMaterial>
+                </Button>
+                    <Button Style="{StaticResource topButton}" Margin="0 0 0 0" HorizontalAlignment="Right" Click="Quit">
+                        <Icon:PackIconMaterial Kind="Close"></Icon:PackIconMaterial>
+                    </Button>
+                </StackPanel>
+
+                <!--PageTitle-->
+                <TextBlock Text="Prodotti" Grid.Row="1" FontSize="32" FontWeight="SemiBold" Margin="0,40,0,11" HorizontalAlignment="Left" Foreground="Black" Grid.RowSpan="3"></TextBlock>
+                <Button Style="{StaticResource addButton}" Click="AddProdotto">
+                    <StackPanel>
+                        <Icon:PackIconMaterial Kind="Plus"></Icon:PackIconMaterial>
+                    </StackPanel>
+                </Button>
+                <Separator Height="1" Grid.Row="3" Background="#dae2ea" Margin="5,5,5,5"></Separator>
+
+                <!--Prodotti Datagrid-->
+                <DataGrid Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Grid.Row="5" x:Name="dgProdotti">
+                    <DataGrid.Columns>
+
+                        <DataGridTextColumn Header="ID" IsReadOnly="True" CanUserResize="False" Width="auto" Binding="{Binding ProdottoId}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Nome" IsReadOnly="True" Width="*" Binding="{Binding Nome}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Marca" IsReadOnly="True" Width="*" Binding="{Binding Marca}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Categoria" IsReadOnly="True" Width="*" Binding="{Binding CategoriaRifNavigation.Nome}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Descrizione" IsReadOnly="True" Width="300" Binding="{Binding Descrizione}"></DataGridTextColumn>
+
+                        <DataGridTemplateColumn Header="" IsReadOnly="True" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Style="{StaticResource gridEditButton}" Click="Edit">
+                                            <Icon:PackIconMaterial Kind="Pencil" Style="{StaticResource gridButtonIcon}"></Icon:PackIconMaterial>
+                                        </Button>
+                                        <Button Style="{StaticResource gridRemoveButton}" Margin="5 0 0 0" Click="Delete">
+                                            <Icon:PackIconMaterial Kind="Delete" Style="{StaticResource gridButtonIcon}"></Icon:PackIconMaterial>
+                                        </Button>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

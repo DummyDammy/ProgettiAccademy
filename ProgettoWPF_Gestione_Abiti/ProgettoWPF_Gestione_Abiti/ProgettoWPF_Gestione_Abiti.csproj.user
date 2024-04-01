@@ -7,10 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="WindowOrdini.xaml.cs">
+    <Compile Update="WindowAddProdotto.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WindowUtenti.xaml.cs">
+    <Compile Update="WindowProdotti.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowUpdateProdotto.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,10 +21,13 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowOrdini.xaml">
+    <Page Update="WindowAddProdotto.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowUtenti.xaml">
+    <Page Update="WindowProdotti.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowUpdateProdotto.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

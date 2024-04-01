@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Q0FaAwLIjW8L65gz/gpaxxtu+qFGRS0rtcV0uZ/tZ01hM+nMQsyYnCsQD+Z1efjcuCwC9mDoDZqUtXHivgJlAQ==",
+  "dgSpecHash": "kLj/8CmaWoCJvkCktzXCyOgBXPXIf6la2lQhJcLwiwdtqkDscZNJNMk1zrDCs2VoqXF4wiTz6wrsJPaQJ2JsbQ==",
   "success": true,
   "projectFilePath": "C:\\Programmazione\\Progetti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti\\ProgettoWPF_Gestione_Abiti.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utente\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Utente\\.nuget\\packages\\mahapps.metro.iconpacks.material\\4.11.0\\mahapps.metro.iconpacks.material.4.11.0.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

@@ -125,7 +125,6 @@ C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\App.g.cs
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ProgettoWPF_Gestione_Abiti_MarkupCompile.cache
-C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ProgettoWPF_Gestione_Abiti_MarkupCompile.lref
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ProgettoWPF_Gestione_Abiti.g.resources
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ProgettoWPF_Gestione_Abiti.GeneratedMSBuildEditorConfig.editorconfig
@@ -139,7 +138,12 @@ C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ProgettoWPF_Gestione_Abiti.pdb
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ProgettoWPF_Gestione_Abiti.genruntimeconfig.cache
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\ref\ProgettoWPF_Gestione_Abiti.dll
-C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowOrdini.g.cs
-C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowOrdini.baml
-C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowUtenti.g.cs
-C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowUtenti.baml
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\bin\Debug\net8.0-windows\MahApps.Metro.IconPacks.Core.dll
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\bin\Debug\net8.0-windows\MahApps.Metro.IconPacks.Material.dll
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\App.baml
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowProdotti.baml
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowProdotti.g.cs
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowAddProdotto.baml
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowAddProdotto.g.cs
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowUpdateProdotto.baml
+C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\obj\Debug\net8.0-windows\WindowUpdateProdotto.g.cs

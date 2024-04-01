@@ -13,9 +13,6 @@ using System.Windows.Shapes;
 
 namespace ProgettoWPF_Gestione_Abiti
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -23,14 +20,18 @@ namespace ProgettoWPF_Gestione_Abiti
             InitializeComponent();
         }
 
-        private void Ordini_Click(object sender, RoutedEventArgs e)
+        private void ToProdottiWindow(object sender, RoutedEventArgs e)
         {
-            Main.Content = new WindowOrdini();
+            WindowProdotti finestra = new WindowProdotti();
+
+            finestra.Show();
+
+            Close();
         }
 
-        private void Prodotti_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new WindowUtenti();
+            Close();
         }
     }
 }

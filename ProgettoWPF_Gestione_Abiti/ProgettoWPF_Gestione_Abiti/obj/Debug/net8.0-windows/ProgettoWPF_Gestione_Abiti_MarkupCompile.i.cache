@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Programmazione\Progetti\ProgettoWPF_Gestione_Abiti\ProgettoWPF_Gestione_Abiti\App.xaml
-3197311402
+41243600310
 
-221839222228
-239-1731933767
-MainWindow.xaml;WindowOrdini.xaml;WindowUtenti.xaml;
+231402848902
+241-998240624
+MainWindow.xaml;WindowAddProdotto.xaml;WindowProdotti.xaml;WindowUpdateProdotto.xaml;
 
-True
+False
 
