@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProgettoWPF_Gestione_Abiti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49db85249616c65992c1c2aa3f9575141214be7d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89457caeef1a182177f1d9b04c845fc38ad4ed8c")]
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
 [assembly: System.Reflection.AssemblyProductAttribute("ProgettoWPF_Gestione_Abiti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProgettoWPF_Gestione_Abiti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

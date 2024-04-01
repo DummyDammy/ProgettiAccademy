@@ -2,12 +2,20 @@
                           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+<<<<<<< HEAD
              StartupUri="MainWindow.xaml"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
     <Application.Resources>
         <Style x:Key="topButton" TargetType="Button">
             <Setter Property="Background" Value="LightGray"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
+=======
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="topButton" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="Foreground" Value="#6e7783"></Setter>
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
             <Setter Property="FocusVisualStyle" Value="{x:Null}"></Setter>
             <Setter Property="Width" Value="30"></Setter>
             <Setter Property="Height" Value="30"></Setter>
@@ -24,6 +32,7 @@
 
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
+<<<<<<< HEAD
                     <Setter Property="Background" Value="#ff1616"></Setter>
                 </Trigger>
             </Style.Triggers>
@@ -33,6 +42,9 @@
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" Value="#83ff16"></Setter>
+=======
+                    <Setter Property="Background" Value="#dcdcdc"></Setter>
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -98,6 +110,7 @@
             </Setter>
         </Style>
 
+<<<<<<< HEAD
         <Style x:Key="ColumnHeaderGripperStyle" TargetType="{x:Type Thumb}">
             <Setter Property="Width" Value="8"/>
             <Setter Property="Background" Value="Transparent"/>
@@ -291,6 +304,8 @@
                 </MultiTrigger>
             </Style.Triggers>
         </Style>
+=======
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
         <Style x:Key="addButton" TargetType="Button">
             <Setter Property="Background" Value="#0078ff"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
@@ -317,6 +332,7 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
+<<<<<<< HEAD
 
         <Style x:Key="gridEditButton" TargetType="Button">
             <Setter Property="Background" Value="#ff8b00"></Setter>
@@ -358,5 +374,7 @@
             <Setter Property="VerticalAlignment" Value="Center"></Setter>
         </Style>
         
+=======
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
     </Application.Resources>
 </Application>

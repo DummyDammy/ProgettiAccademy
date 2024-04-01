@@ -20,6 +20,7 @@ namespace ProgettoWPF_Gestione_Abiti
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         private void ToProdottiWindow(object sender, RoutedEventArgs e)
         {
             WindowProdotti finestra = new WindowProdotti();
@@ -32,6 +33,36 @@ namespace ProgettoWPF_Gestione_Abiti
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Close();
+=======
+        void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                DragMove();
+            }
+        }
+
+        bool isMaximized = false;
+        void Border_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ClickCount == 2)
+            {
+                if (isMaximized)
+                {
+                    WindowState = WindowState.Normal;
+                    Width = 1080;
+                    Height = 720;
+
+                    isMaximized = false;
+                }
+
+                else
+                {
+                    WindowState = WindowState.Maximized;
+                    isMaximized = false;
+                }
+            }
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
         }
     }
 }

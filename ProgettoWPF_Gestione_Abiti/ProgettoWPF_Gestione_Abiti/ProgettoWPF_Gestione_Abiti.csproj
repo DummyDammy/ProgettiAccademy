@@ -9,11 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <None Remove="assets\Danny.png" />
     <None Remove="assets\Logo.png" />
     <None Remove="assets\Vestito1.png" />
     <None Remove="assets\Vestito2.png" />
     <None Remove="assets\Vestito3.png" />
+=======
+    <None Remove="assets\Logo.png" />
+    <None Remove="assets\Vestito1.png" />
+    <None Remove="assets\Vestito2.png" />
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
   </ItemGroup>
 
   <ItemGroup>
@@ -28,9 +34,12 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Resource Include="assets\Danny.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+=======
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
     <Resource Include="assets\Logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -40,9 +49,12 @@
     <Resource Include="assets\Vestito2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+<<<<<<< HEAD
     <Resource Include="assets\Vestito3.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+=======
+>>>>>>> 95dc14e6d2db2a1a357cf2ff1cdf7382bcca283e
   </ItemGroup>
 
 </Project>
