@@ -148,11 +148,6 @@
                             <div class="form-group">
                                 <label for="select_casata">Casata</label>
                                 <select class="form-control" id="select_casata">
-                                    <option selected="selected">Nessuno</option>
-                                    <option>Corvonero</option>
-                                    <option>Grifondoro</option>
-                                    <option>Serpeverde</option>
-                                    <option>Tassorosso</option>
                                 </select>
                             </div>
                             <div class="form-group">
@@ -170,122 +165,9 @@
             </div>
             </div>
         </div>
-
-        <div class="modal fade" id="modaleAggiornamento" tabindex="-1" aria-labelledby="Aggiornamento Bacchette" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="ModalBacchetta">Aggiornamento bacchetta</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                
-                    <div class="row">
-                        <div class="col">
-            
-                            <div class="form-group">
-                                <label for="update_codice">Codice</label>
-                                <input type="text" class="form-control" id="update_codice" placeholder="Inserire valore" />
-                            </div>
-                            <div class="form-group">
-                                <label for="update_select_materiale">Materiale</label>
-                                <select class="form-control" id="update_select_materiale">
-                                    <option selected="selected">Nessuno</option>
-                                    <option>Abete</option>
-                                    <option>Acacia</option>
-                                    <option>Acero</option>
-                                    <option>Agrifoglio</option>
-                                    <option>Alloro</option>
-                                    <option>Biancospino</option>
-                                    <option>Carpino</option>
-                                    <option>Castagno</option>
-                                    <option>Cedro</option>
-                                    <option>Ciliegio</option>
-                                    <option>Cipresso</option>
-                                    <option>Corniolo</option>
-                                    <option>Ebano</option>
-                                    <option>Faggio</option>
-                                    <option>Frassino</option>
-                                    <option>Larice</option>
-                                    <option>Melo</option>
-                                    <option>Nocciolo</option>
-                                    <option>Noce</option>
-                                    <option>Noce nero</option>
-                                    <option>Olmo</option>
-                                    <option>Ontano</option>
-                                    <option>Peccio</option>
-                                    <option>Pero</option>
-                                    <option>Pino</option>
-                                    <option>Pioppo</option>
-                                    <option>Pioppo Bianco</option>
-                                    <option>Prugnolo</option>
-                                    <option>Quercia</option>
-                                    <option>Quercia rossa</option>
-                                    <option>Salice</option>
-                                    <option>Sambuco</option>
-                                    <option>Sequoia</option>
-                                    <option>Sicomoro</option>
-                                    <option>Sorbo</option>
-                                    <option>Tasso</option>
-                                    <option>Tiglio argentato</option>
-                                    <option>Vite</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="update_select_nucleo">Nucleo</label>
-                                <select class="form-control" id="update_select_nucleo">
-                                    <option selected="selected">Nessuno</option>
-                                    <option>Unicorno</option>
-                                    <option>Drago</option>
-                                    <option>Fenice</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="update_lunghezza">Lunghezza</label>
-                                <input type="number" min = "0" class="form-control" id="update_lunghezza" placeholder="Inserire lunghezza" />
-                            </div>
-                            <div class="form-group">
-                                <label for="update_select_resistenza">Resistenza</label>
-                                <select class="form-control" id="update_select_resistenza">
-                                    <option selected="selected">Nessuno</option>
-                                    <option>Duro</option>
-                                    <option>Flessibile</option>
-                                    <option>Malleabile</option>
-                                    <option>Morbido</option>
-                                    <option>Soffice</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="update_select_casata">Casata</label>
-                                <select class="form-control" id="update_select_casata">
-                                    <option selected="selected">Nessuno</option>
-                                    <option>Corvonero</option>
-                                    <option>Grifondoro</option>
-                                    <option>Serpeverde</option>
-                                    <option>Tassorosso</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="update_nome">Nome del propietario</label>
-                                <input type="text" min = "0" class="form-control" id="update_nome" placeholder="Inserire nome" />
-                            </div>
-                        </div>
-                    </div>
-    
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
-                <button type="button" class="btn btn-primary" onclick="update()">Modifica</button>
-                </div>
-            </div>
-            </div>
-        </div>
        
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-        <script src="js/scriptBacchette.js"></script> 
-        <script src="js/scriptCasate.js"></script>   
+        <script src="js/scriptBacchette.js"></script>  
     </body>
 </html>

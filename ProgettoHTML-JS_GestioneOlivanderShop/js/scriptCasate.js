@@ -2,11 +2,13 @@ const salvaCasata = () => {
     let nome = document.getElementById("inserimento_nome").value;
     let descrizione = document.getElementById("inserimento_descrizione").value;
     let urlImmagine = document.getElementById("inserimento_immagine").value;
+    let quantita = 0;
 
     let casata = {
         nome,
         descrizione,
-        urlImmagine
+        urlImmagine,
+        quantita
     }
 
     let controllo = true;
@@ -47,10 +49,8 @@ const stampaCasate = () => {
             <td>${item.nome}</td>
             <td>${item.descrizione}</td>
             <td><img src="${item.urlImmagine}"></td>
+            <td>${item.quantita}</td>
             <td class="text-right">
-                <button class="btn btn-warning" onclick="modificaCasata(${idx})">
-                    <i class="fa-solid fa-pencil"></i>
-                </button>
                 <button class="btn btn-danger" onclick="eliminaCasata(${idx})">
                     <i class="fa-solid fa-trash"></i>
                 </button>
@@ -69,42 +69,43 @@ const eliminaCasata = (indice) => {
     stampaCasate();
 }
 
-const modificaCasata = (idx) => {
-
-    let elenco = JSON.parse(localStorage.getItem('lista_casate'));
-
-    document.getElementById("update_nome").value = elenco[idx].nome;
-    document.getElementById("update_descrizione").value = elenco[idx].descrizione;
-    document.getElementById("update_immagine").value = elenco[idx].urlImmagine;
-
-    $("#modaleAggiornamentoCasata").data("identificativo", idx)
-
-    $("#modaleAggiornamentoCasata").modal("show");
-}
-
-const updateCasata = () => {
-    let nome = document.getElementById("update_nome").value;
-    let descrizione = document.getElementById("update_descrizione").value;
-    let urlImmagine = document.getElementById("update_immagine").value;
-
-    let casata = {
-        nome,
-        descrizione,
-        urlImmagine
-    }
-
-    let indice = $("#modaleAggiornamentoCasata").data("identificativo")
-
-    let elenco = JSON.parse( localStorage.getItem('lista_casate') );
-    elenco[indice] = casata;
-    localStorage.setItem('lista_casate', JSON.stringify(elenco));
-
-    $("#modaleAggiornamentoCasata").modal("hide");
-}
-
 let listaCasate = localStorage.getItem('lista_casate');
-if(!listaCasate)
-    localStorage.setItem('lista_casate', JSON.stringify([]) );
+if(!listaCasate){
+    let elenco = [];
+    let grifondoro = {
+        nome : `Grifondoro`,
+        descrizione : `Grifondoro apprezza il coraggio, l'audacia e la cavalleria. Il suo animale emblematico è il leone e i suoi colori sono scarlatto e oro. Minerva McGranitt è il più recente capo di Grifondoro.`,
+        urlImmagine : `/assets/Grifondoro.png`,
+        quantita : 0
+    };
+    elenco.push(grifondoro);
+
+    let tassorosso = {
+        nome: `Tassorosso`,
+        descrizione: `Tassorosso apprezza il duro lavoro, la dedizione, la pazienza, la lealtà ed il fair play. Il suo animale emblematico è il tasso e giallo e nero sono i suoi colori. Pomona Sprite è stata a capo di Tassorosso nel periodo 1991-1998.`,
+        urlImmagine: `/assets/Tassorosso.png`,
+        quantita : 0
+    };
+    elenco.push(tassorosso);
+
+    let corvonero = {
+        nome : `Corvonero`,
+        descrizione : `Corvonero apprezza l'intelligenza, la conoscenza, la curiosità, la creatività e l'arguzia. Il suo animale emblematico è l'aquila e i suoi colori sono il blu e il bronzo. Il capo della Casa di Corvonero negli anni '90 era Filius Vitious.`,
+        urlImmagine : `/assets/Corvonero.png`,
+        quantita : 0
+    };
+    elenco.push(corvonero);
+
+    let serpeverde = {
+        nome : `Serpeverde`,
+        descrizione : `Serpeverde apprezza l'ambizione, la leadership, l'autoconservazione, l'astuzia e l'intraprendenza ed è stata fondata da Salazar Serpeverde. Il suo animale emblematico è il serpente, e i suoi colori sono il verde smeraldo e l'argento.] Il professor Horace Lumacorno è stato il capo di Serpeverde durante l'anno scolastico 1997-1998.`,
+        urlImmagine : `/assets/Serpeverde.png`,
+        quantita : 0
+    };
+    elenco.push(serpeverde);
+    localStorage.setItem('lista_casate', JSON.stringify(elenco) );
+}
+    
 
 setInterval(() => {
     stampaCasate(); 
