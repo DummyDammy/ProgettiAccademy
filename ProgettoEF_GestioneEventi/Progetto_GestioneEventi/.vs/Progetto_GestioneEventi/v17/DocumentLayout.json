@@ -124,8 +124,7 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T17:15:57.241Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -135,7 +134,7 @@
               "RelativeDocumentMoniker": "Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\ProgettoEF_GestioneEventi\\Progetto_GestioneEventi\\Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
               "RelativeToolTip": "Progetto_GestioneEventi\\DAL\\PartecipanteDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T17:16:15.996Z",
               "IsPinned": true,

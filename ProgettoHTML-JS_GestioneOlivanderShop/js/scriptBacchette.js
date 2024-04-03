@@ -2,8 +2,8 @@ const tendinaCasate = () => {
     let elenco = JSON.parse( localStorage.getItem('lista_casate') );
     let stringa = `<option selected="selected">Nessuno</option>`;
 
-    for (let [idx,] of elenco.entries()){
-        stringa += `<option>${elenco[idx].nome}</option>`;
+    for (let [idx,item] of elenco.entries()){
+        stringa += `<option value="${item.nome}">${item.nome}</option>`;
     }
 
     document.getElementById("select_casata").innerHTML = stringa;

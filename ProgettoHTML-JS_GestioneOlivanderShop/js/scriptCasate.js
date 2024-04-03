@@ -29,7 +29,7 @@ const salvaCasata = () => {
     document.getElementById("inserimento_descrizione").value = "";
     document.getElementById("inserimento_immagine").value = "";
 
-    stampa();
+    stampaCasate();
 
     $("#modaleInserimentoCasata").modal("hide");
     }
