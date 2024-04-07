@@ -10,10 +10,13 @@ CREATE TABLE Prodotto(
 	prezzo DECIMAL(10,2) NOT NULL CHECK (prezzo >= 0),
 	quantita INT DEFAULT 0 CHECK (quantita >= 0),
 	categoria VARCHAR(100) NOT NULL,
-	data_creazione DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
 INSERT INTO Prodotto(nome,descrizione,prezzo,quantita,categoria) VALUES
 	('Cavo','lungo',7.50,12,'elettronica');
 
-	SELECT * FROM Prodotto;
+INSERT INTO Prodotto(nome,descrizione,prezzo,quantita,categoria) VALUES
+	('Arma di fuoco','Fucile',150,12,'VM'),
+	('Acido',null,15.50,12,'VM');
+
+SELECT * FROM Prodotto;
