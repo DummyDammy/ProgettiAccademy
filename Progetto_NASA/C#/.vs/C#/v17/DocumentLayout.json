@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\controllers\\corpocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\controllers\\corpocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\dto\\sistemadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\dto\\sistemadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\repositories\\corporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\repositories\\corporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\services\\corposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\services\\corposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\models\\nasacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\models\\nasacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\models\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\models\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\models\\corpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\models\\corpo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\controllers\\corpocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\controllers\\corpocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\repositories\\sistemarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\controllers\\sistemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\controllers\\sistemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\repositories\\corporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\repositories\\corporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_nasa\\c#\\c#\\services\\corposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD058F3C-7E47-4076-8F0B-2DA2D37119DD}|C#\\C#.csproj|solutionrelative:c#\\services\\corposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,117 +58,159 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "CorpoController.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Controllers\\CorpoController.cs",
               "RelativeDocumentMoniker": "C#\\Controllers\\CorpoController.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Controllers\\CorpoController.cs",
               "RelativeToolTip": "C#\\Controllers\\CorpoController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T16:06:16.458Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "CorpoService.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Services\\CorpoService.cs",
               "RelativeDocumentMoniker": "C#\\Services\\CorpoService.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Services\\CorpoService.cs",
               "RelativeToolTip": "C#\\Services\\CorpoService.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAIwIQAAAAFAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAIwIQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T15:17:22.182Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "CorpoRepository.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Repositories\\CorpoRepository.cs",
               "RelativeDocumentMoniker": "C#\\Repositories\\CorpoRepository.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Repositories\\CorpoRepository.cs",
               "RelativeToolTip": "C#\\Repositories\\CorpoRepository.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAIwG0AAAAkAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwG8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T16:06:07.445Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "SistemaController.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Controllers\\SistemaController.cs",
               "RelativeDocumentMoniker": "C#\\Controllers\\SistemaController.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Controllers\\SistemaController.cs",
               "RelativeToolTip": "C#\\Controllers\\SistemaController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T16:31:22.287Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "SistemaService.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Services\\SistemaService.cs",
               "RelativeDocumentMoniker": "C#\\Services\\SistemaService.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Services\\SistemaService.cs",
               "RelativeToolTip": "C#\\Services\\SistemaService.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAswBsAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T16:31:42.331Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "SistemaRepository.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Repositories\\SistemaRepository.cs",
               "RelativeDocumentMoniker": "C#\\Repositories\\SistemaRepository.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Repositories\\SistemaRepository.cs",
               "RelativeToolTip": "C#\\Repositories\\SistemaRepository.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAUwGUAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T16:32:12.866Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Corpo.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\Corpo.cs",
-              "RelativeDocumentMoniker": "C#\\Models\\Corpo.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\Corpo.cs",
-              "RelativeToolTip": "C#\\Models\\Corpo.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswBoAAAA6AAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Program.cs",
+              "RelativeDocumentMoniker": "C#\\Program.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Program.cs",
+              "RelativeToolTip": "C#\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T07:46:39.114Z",
+              "WhenOpened": "2024-04-08T10:11:37.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SistemaDTO.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\DTO\\SistemaDTO.cs",
-              "RelativeDocumentMoniker": "C#\\DTO\\SistemaDTO.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\DTO\\SistemaDTO.cs",
-              "RelativeToolTip": "C#\\DTO\\SistemaDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T18:30:21.773Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\appsettings.json",
+              "RelativeDocumentMoniker": "C#\\appsettings.json",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\appsettings.json",
+              "RelativeToolTip": "C#\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T09:47:09.776Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "C#\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Properties\\launchSettings.json",
+              "RelativeToolTip": "C#\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T09:47:03.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\Sistema.cs",
+              "RelativeDocumentMoniker": "C#\\Models\\Sistema.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\Sistema.cs",
+              "RelativeToolTip": "C#\\Models\\Sistema.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:39:32.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Corpo.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\Corpo.cs",
+              "RelativeDocumentMoniker": "C#\\Models\\Corpo.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\Corpo.cs",
+              "RelativeToolTip": "C#\\Models\\Corpo.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:39:08.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NASAContext.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\NASAContext.cs",
+              "RelativeDocumentMoniker": "C#\\Models\\NASAContext.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_NASA\\C#\\C#\\Models\\NASAContext.cs",
+              "RelativeToolTip": "C#\\Models\\NASAContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wBYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:31:21.817Z"
             }
           ]
         }

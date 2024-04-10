@@ -30,6 +30,7 @@ namespace C_.Models
                    l => l.HasOne(typeof(Corpo)).WithMany().HasForeignKey("CorpoRIF").HasPrincipalKey(nameof(Corpo.CorpoID)),
                    r => r.HasOne(typeof(Sistema)).WithMany().HasForeignKey("SistemaRIF").HasPrincipalKey(nameof(Sistema.SistemaID)),
                    j => j.HasKey("SistemaRIF", "CorpoRIF"));
+
         }
     }
 }

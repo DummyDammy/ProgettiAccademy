@@ -8,6 +8,5 @@
         public bool Update(T t);
         public T? GetByID(int id);
 
-
     }
 }
