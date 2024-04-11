@@ -14,6 +14,7 @@
         <tr *ngFor="let item of lista">
             <td>{{ item.codice }}</td>
             <td>{{ item.nominativo }}</td>
+            <td class = "text-right"><button class = "btn btn-secondary">Inventario</button></td>
         </tr>
       </tbody>
     </table>
@@ -42,10 +43,9 @@
           </div>
           <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
-          <button type="button" class="btn btn-primary" (click)="aggiungi()">Aggiungi</button>
+          <button type="button" class="btn btn-primary" (click)="aggiungi()" data-dismiss="modal">Aggiungi</button>
           </div>
       </div>
     </div>
-    </div>
-    
+  </div>
 </div>

@@ -12,9 +12,7 @@ export class AppComponent {
   constructor(){
     let listaUtenti = localStorage.getItem(`lista_utenti`);
     if (!listaUtenti){
-      let elenco : Utente[] = new Array();
-      elenco.push(new Utente("Giovanni Pace"));
-      localStorage.setItem(`lista_utenti`,JSON.stringify(elenco));
+      localStorage.setItem(`lista_utenti`,JSON.stringify([]));
     }
   }
 }

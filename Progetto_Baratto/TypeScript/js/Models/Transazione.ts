@@ -4,11 +4,10 @@ import { Utente } from "./Utente";
 
 export class Transazione extends Proposta{
 
-    private codice : string;
+    private codice : string = Math.random().toString(36).substring(2,10).toUpperCase();
     
     constructor (oggettoMIT : Oggetto, oggettoDES : Oggetto, utenteMIT : Utente, utenteDES : Utente){
         super(oggettoMIT,oggettoDES,utenteMIT, utenteDES);
-        this.codice = Math.random().toString(36).substring(2,10).toUpperCase();
     }
 
     stampa() : string {

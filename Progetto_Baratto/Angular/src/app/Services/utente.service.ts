@@ -6,7 +6,6 @@ import { Utente } from '../Models/utente';
 })
 export class UtenteService {
 
-
   constructor() { }
 
   aggiungi(utente : Utente){
