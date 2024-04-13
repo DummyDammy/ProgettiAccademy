@@ -1,7 +1,6 @@
 ﻿using C_.DTO;
 using C_.Models;
 using C_.Repositories;
-using Microsoft.EntityFrameworkCore.Query;
 
 namespace C_.Services
 {
@@ -34,7 +33,8 @@ namespace C_.Services
             {
                 Name = giocatore.Nome,
                 Color = giocatore.Colore,
-                Credits = giocatore.Crediti
+                Credits = giocatore.Crediti,
+                Characters = ConvertToPersonaggiDTO(giocatore.Personaggi.ToList())
             };
         }
 

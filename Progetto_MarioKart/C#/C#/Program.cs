@@ -1,10 +1,7 @@
-
 using C_.Controllers;
 using C_.Models;
 using C_.Repositories;
 using C_.Services;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 namespace C_

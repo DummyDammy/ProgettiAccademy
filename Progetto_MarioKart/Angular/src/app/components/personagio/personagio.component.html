@@ -1,0 +1,74 @@
+<div class="container">
+
+    <table class="table table-striped table-light">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Categoria</th>
+          <th>Mezzo</th>
+          <th>Costo</th>
+          <th class = "text-right"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaleInserimento">
+            <i class="fa-solid fa-plus"></i>
+        </button></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of lista">
+            <td>{{ item.name }}</td>
+            <td>{{ item.category }}</td>
+            <td>{{ item.veichle }}</td>
+            <td>{{ item.cost }}</td>
+            <td class = "text-right"><button class = "btn btn-info">Giocatore</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="modal fade" id="modaleInserimento" tabindex="-1" aria-labelledby="Inserimento personaggio" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="modaleInserimento">Inserimento personaggio</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            
+                <div class="row">
+                    <div class="col">
+  
+                        <div class="form-group">
+                            <label for="input_nomePersonaggio">Nome</label>
+                            <input [(ngModel)]="nomePersonaggio" type="text" class="form-control" id="input_nomePersonaggio" placeholder="Inserire nome" />
+                        </div>
+                        <div class="form-group">
+                          <label for="input_categoria">Categoria</label>
+                          <select [(ngModel)]="categoria" class="form-control" id="input_categoria">
+                            <option>50cc</option>
+                            <option>100cc</option>
+                            <option>150cc</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="input_mezzo">Mezzo</label>
+                          <select [(ngModel)]="mezzo" class="form-control" id="input_mezzo">
+                            <option>Kart</option>
+                            <option>Moto</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <label for="input_costo">Costo</label>
+                          <input [(ngModel)]="costo" type="number" min="1" max="4" class="form-control" id="input_costo" placeholder="Inserire costo" />
+                        </div>
+                    </div>
+                </div>
+  
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Aggiungi</button>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

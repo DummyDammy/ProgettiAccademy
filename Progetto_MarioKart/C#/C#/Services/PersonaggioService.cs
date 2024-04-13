@@ -98,5 +98,15 @@ namespace C_.Services
         {
             return ConvertToPersonaggiDTO(repository.GetAllGetGiocatori());
         }
+
+        public List<PersonaggioDTO> GetAvialable()
+        {
+            return ConvertToPersonaggiDTO(repository.GetDisponibili());
+        }
+
+        public List<PersonaggioDTO> GetTaken()
+        {
+            return ConvertToPersonaggiDTO(repository.GetTaken());
+        }
     }
 }

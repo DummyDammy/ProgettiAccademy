@@ -1,5 +1,4 @@
 ﻿using C_.Models;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 
 namespace C_.Repositories
@@ -95,7 +94,7 @@ namespace C_.Repositories
         {
             try
             {
-                return context.Personaggi.Single(s => s.Nome == nome);
+                return context.Personaggi.Include(s => s.Giocatore).Single(s => s.Nome == nome);
             }
             catch { }
 
@@ -107,6 +106,28 @@ namespace C_.Repositories
             try
             {
                 return context.Personaggi.Include(p => p.Giocatore).ToList();
+            }
+            catch { }
+
+            return new List<Personaggio>();
+        }
+
+        public List<Personaggio> GetDisponibili()
+        {
+            try
+            {
+                return context.Personaggi.Where(p => p.GiocatoreRIF == null).ToList();
+            }
+            catch { }
+
+            return new List<Personaggio>();
+        }
+
+        public List<Personaggio> GetTaken()
+        {
+            try
+            {
+                return context.Personaggi.Include(p => p.Giocatore).Where(p => p.GiocatoreRIF != null).ToList();
             }
             catch { }
 

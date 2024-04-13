@@ -1,5 +1,4 @@
 ﻿using C_.DTO;
-using C_.Models;
 using C_.Services;
 using C_.Utils;
 using Microsoft.AspNetCore.Mvc;
@@ -120,6 +119,26 @@ namespace C_.Controllers
             {
                 Stato = "SUCCESS",
                 Data = service.GetAllGetGiocatori()
+            });
+        }
+
+        [HttpGet("disponibili")]
+        public IActionResult GetAvialable()
+        {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetAvialable()
+            });
+        }
+
+        [HttpGet("taken")]
+        public IActionResult GetTaken()
+        {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetTaken()
             });
         }
         #endregion

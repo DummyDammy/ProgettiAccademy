@@ -94,7 +94,7 @@ namespace C_.Repositories
         {
             try
             {
-                return context.Giocatori.Single(s => s.Colore == colore);
+                return context.Giocatori.Include(s => s.Personaggi).Single(s => s.Colore == colore);
             }
             catch { }
 

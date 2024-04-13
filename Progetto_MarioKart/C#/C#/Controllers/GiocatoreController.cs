@@ -82,7 +82,7 @@ namespace C_.Controllers
         }
 
         [HttpGet("{colore}")]
-        public IActionResult GetByNome(string colore)
+        public IActionResult GetByColore(string colore)
         {
             if (colore.Trim().Equals(""))
                 return BadRequest(new Status()

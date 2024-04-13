@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace C_.Models
 {

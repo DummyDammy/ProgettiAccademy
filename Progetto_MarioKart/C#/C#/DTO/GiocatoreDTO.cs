@@ -1,6 +1,4 @@
-﻿using C_.Models;
-
-namespace C_.DTO
+﻿namespace C_.DTO
 {
     public class GiocatoreDTO
     {
