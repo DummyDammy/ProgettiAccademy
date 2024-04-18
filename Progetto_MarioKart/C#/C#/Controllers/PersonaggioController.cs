@@ -78,7 +78,7 @@ namespace C_.Controllers
             });
         }
 
-        [HttpPost("update")]
+        [HttpPut("update")]
         public IActionResult Update(PersonaggioDTO personaggio)
         {
             if (personaggio.Name.Trim().Equals(""))

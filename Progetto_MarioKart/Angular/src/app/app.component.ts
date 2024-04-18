@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular';
+
+  giocatoreComponent : boolean = false;
+  personagioComponent : boolean = false;
+
+  onGiocatoreComponent(){
+    this.personagioComponent = false;
+    this.giocatoreComponent = true;
+  }
+
+  onPersonagioComponent(){
+    this.giocatoreComponent = false;
+    this.personagioComponent = true;
+  }
 }

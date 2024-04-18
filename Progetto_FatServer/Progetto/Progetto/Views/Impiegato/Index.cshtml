@@ -1,0 +1,41 @@
+﻿@model List<Progetto.Models.Impiegato>
+
+@{
+}
+
+<table class="table table-light table-striped">
+    <thead>
+        <tr>
+            <th>Matricola</th>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Ruolo</th>
+            <th>Reparto</th>
+            <th>Data di nascita</th>
+            <th>Via di residenza</th>
+            <th>Citta di residenza</th>
+            <th>Provincia di residenza</th>
+            <th>
+                <a class="btn btn-primary" type="button" href="/Impiegato/Insert"><i class="fa-solid fa-plus"></i></a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach(Impiegato impiegato in Model)
+        {
+            <tr>
+                <td>@impiegato.Matricola</td>
+                <td>@impiegato.Nome</td>
+                <td>@impiegato.Cognome</td>
+                <td>@impiegato.Ruolo</td>
+                <td>@impiegato.RepartoRifNavigation.Nome</td>
+                <td>@impiegato.DataNascita</td>
+                <td>@impiegato.ViaResidenza</td>
+                <td>@impiegato.CittaRifNavigation.Citta</td>
+                <td>@impiegato.ProvinciaRifNavigation.Provincia</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

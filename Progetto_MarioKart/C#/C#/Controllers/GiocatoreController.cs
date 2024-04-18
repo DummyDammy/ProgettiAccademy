@@ -1,5 +1,4 @@
 ﻿using C_.DTO;
-using C_.Models;
 using C_.Services;
 using C_.Utils;
 using Microsoft.AspNetCore.Mvc;
@@ -64,7 +63,7 @@ namespace C_.Controllers
             });
         }
 
-        [HttpPost("update")]
+        [HttpPut("update")]
         public IActionResult Update(GiocatoreDTO giocatore)
         {
             if (giocatore.Color.Trim().Equals(""))

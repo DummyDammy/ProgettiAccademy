@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { GiocatoreComponent } from './components/giocatore/giocatore.component';
 import { PersonagioComponent } from './components/personagio/personagio.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule, HttpHeaders } from '@angular/common/http';
 
 @NgModule({
   declarations: [

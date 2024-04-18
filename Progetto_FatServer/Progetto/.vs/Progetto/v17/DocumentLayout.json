@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\views\\impiegato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\views\\impiegato\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\controllers\\impiegatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\controllers\\impiegatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\services\\impiegatoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\services\\impiegatoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\repositories\\impiegatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\repositories\\impiegatorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\views\\impiegato\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\views\\impiegato\\insert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\models\\impiegato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\models\\impiegato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\models\\progettofatservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\models\\progettofatservercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\progetto.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\progetto.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|c:\\programmazione\\progetti\\progetto_fatserver\\progetto\\progetto\\progetto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16193688-22FF-4B9C-AADA-A345EA36BE9B}|Progetto\\Progetto.csproj|solutionrelative:progetto\\progetto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\appsettings.json",
+              "RelativeDocumentMoniker": "Progetto\\appsettings.json",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\appsettings.json",
+              "RelativeToolTip": "Progetto\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-17T10:53:35.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Progetto",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Progetto.csproj",
+              "RelativeDocumentMoniker": "Progetto\\Progetto.csproj",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Progetto.csproj",
+              "RelativeToolTip": "Progetto\\Progetto.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T10:47:10.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Progetto",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Progetto.csproj",
+              "RelativeDocumentMoniker": "Progetto\\Progetto.csproj",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Progetto.csproj",
+              "RelativeToolTip": "Progetto\\Progetto.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-17T10:46:47.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProgettoFatServerContext.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Models\\ProgettoFatServerContext.cs",
+              "RelativeDocumentMoniker": "Progetto\\Models\\ProgettoFatServerContext.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Models\\ProgettoFatServerContext.cs",
+              "RelativeToolTip": "Progetto\\Models\\ProgettoFatServerContext.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAuwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:41:54.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Impiegato.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Models\\Impiegato.cs",
+              "RelativeDocumentMoniker": "Progetto\\Models\\Impiegato.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Models\\Impiegato.cs",
+              "RelativeToolTip": "Progetto\\Models\\Impiegato.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwB0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:34:58.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Insert.cshtml",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Views\\Impiegato\\Insert.cshtml",
+              "RelativeDocumentMoniker": "Progetto\\Views\\Impiegato\\Insert.cshtml",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Views\\Impiegato\\Insert.cshtml",
+              "RelativeToolTip": "Progetto\\Views\\Impiegato\\Insert.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T10:34:41.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Views\\Impiegato\\Index.cshtml",
+              "RelativeDocumentMoniker": "Progetto\\Views\\Impiegato\\Index.cshtml",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Views\\Impiegato\\Index.cshtml",
+              "RelativeToolTip": "Progetto\\Views\\Impiegato\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T10:34:40.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImpiegatoController.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Controllers\\ImpiegatoController.cs",
+              "RelativeDocumentMoniker": "Progetto\\Controllers\\ImpiegatoController.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Controllers\\ImpiegatoController.cs",
+              "RelativeToolTip": "Progetto\\Controllers\\ImpiegatoController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:33:53.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImpiegatoService.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Services\\ImpiegatoService.cs",
+              "RelativeDocumentMoniker": "Progetto\\Services\\ImpiegatoService.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Services\\ImpiegatoService.cs",
+              "RelativeToolTip": "Progetto\\Services\\ImpiegatoService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:33:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImpiegatoRepository.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Repositories\\ImpiegatoRepository.cs",
+              "RelativeDocumentMoniker": "Progetto\\Repositories\\ImpiegatoRepository.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Repositories\\ImpiegatoRepository.cs",
+              "RelativeToolTip": "Progetto\\Repositories\\ImpiegatoRepository.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAIAwwC0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T10:31:38.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Progetto\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_FatServer\\Progetto\\Progetto\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Progetto\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T10:53:34.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

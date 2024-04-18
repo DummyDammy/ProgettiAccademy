@@ -16,13 +16,17 @@
             <td>{{ item.name }}</td>
             <td>{{ item.credits }}</td>
             <td>{{ item.color }}</td>
-            <td class = "text-right"><button class = "btn btn-info">Personaggi</button></td>
+            <td class = "text-right">
+              <button type = "button" class = "btn btn-info" data-toggle="modal" data-target="#modalePersonaggi">Personaggi</button>
+              <button style="margin-left: 3px;" type = "button" class = "btn btn-warning" data-toggle="modal" data-target="#modaleAggiornamento"><i class="fa-solid fa-pencil"></i></button>
+              <button style="margin-left: 3px;" type = "button" class = "btn btn-danger" (click)="elimina(item.color)"><i class="fa-solid fa-trash"></i></button>
+            </td>
         </tr>
       </tbody>
     </table>
 
     <div class="modal fade" id="modaleInserimento" tabindex="-1" aria-labelledby="Inserimento utente" aria-hidden="true">
-        <div class="modal-dialog">
+      <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
             <h5 class="modal-title" id="modaleInserimento">Inserimento utente</h5>
@@ -32,30 +36,86 @@
             </div>
             <div class="modal-body">
             
-                <div class="row">
-                    <div class="col">
-  
-                        <div class="form-group">
-                            <label for="input_nome">Nome</label>
-                            <input [(ngModel)]="nome" type="text" class="form-control" id="input_nome" placeholder="Inserire nome" />
-                        </div>
-                        <div class="form-group">
-                            <label for="input_colore">Colore</label>
-                            <select [(ngModel)]="colore" class="form-control" id="input_colore">
-                              <option>Rosso</option>
-                              <option>Verde</option>
-                              <option>Blu</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
+              <div class="row">
+                  <div class="col">
+
+                      <div class="form-group">
+                          <label for="input_nome">Nome</label>
+                          <input [(ngModel)]="nome" type="text" class="form-control" id="input_nome" placeholder="Inserire nome" />
+                      </div>
+                      <div class="form-group">
+                          <label for="input_colore">Colore</label>
+                          <select [(ngModel)]="colore" class="form-control" id="input_colore">
+                            <option>Rosso</option>
+                            <option>Verde</option>
+                            <option>Blu</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
   
             </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Aggiungi</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"  (click)="aggiungi()">Aggiungi</button>
           </div>
+        </div>
       </div>
     </div>
-  </div>
+  
+    <div class="modal fade" id="modalePersonaggi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Personaggi utilizzati</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class = "table table-light">
+              <table>
+                <thead>
+                  <th>Nome</th>
+                  <th>Categoria</th>
+                  <th>Mezzo</th>
+                  <th>Costo</th>
+                  <th></th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modaleAggiornamento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modifica giocatore</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
+            <button type="button" class="btn btn-warning" data-dismiss="modal" (click)="modifica()">Modifica</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </div>

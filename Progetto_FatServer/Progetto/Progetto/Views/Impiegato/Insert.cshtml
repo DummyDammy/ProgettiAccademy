@@ -1,0 +1,43 @@
+﻿@model Progetto.Models.Impiegato
+@{
+}
+
+<h1>Inserisci impiegato</h1>
+
+<form method="post" asp-controller="Impiegato" asp-action="Salvataggio">
+
+    <div class="form-group">
+        <label for="">Matricola</label>
+        <input type="text" class="form-control" asp-for=Matricola />
+    </div>
+    <div class="form-group">
+        <label for="">Nome</label>
+        <input type="text" class="form-control" asp-for=Nome />
+    </div>
+    <div class="form-group">
+        <label for="">Cognome</label>
+        <input type="text" class="form-control" asp-for=Cognome />
+    </div>
+    <div class="form-group">
+        <label for="">Ruolo</label>
+        <input type="text" class="form-control" asp-for=Ruolo />
+    </div>
+    <div class="form-group">
+        <label for="">Reparto</label>
+        <input type="text" class="form-control" asp-for=RepartoRifNavigation.Nome />
+    </div>
+    <div class="form-group">
+        <label for="">Data di nascita</label>
+        <input type="date" class="form-control" asp-for=DataNascita />
+    </div>
+    <div class="form-group">
+        <label for="">Via di residenza</label>
+        <input type="text" class="form-control" asp-for=ViaResidenza />
+    </div>
+    <div class="form-group">
+        <label for="">Citta di residenza</label>
+        <input type="text" class="form-control" asp-for=CittaRifNavigation.Citta />
+    </div>
+
+    <button class="btn btn-primary btn-block" type="submit">Salva</button>
+</form>
