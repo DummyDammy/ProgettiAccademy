@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\repositories\\giocatorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\repositories\\giocatorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\models\\personaggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\models\\personaggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\models\\mariokartcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\models\\mariokartcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\repositories\\personaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\repositories\\personaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\controllers\\personaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\controllers\\personaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\dto\\personaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\dto\\personaggiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\dto\\giocatoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\dto\\giocatoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\controllers\\giocatorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\controllers\\giocatorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|c:\\programmazione\\progetti\\progetto_mariokart\\c#\\c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8EA8042D-98DA-4C00-8CD3-A186741760AB}|C#\\C#.csproj|solutionrelative:c#\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonaggioController.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Controllers\\PersonaggioController.cs",
-              "RelativeDocumentMoniker": "C#\\Controllers\\PersonaggioController.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Controllers\\PersonaggioController.cs",
-              "RelativeToolTip": "C#\\Controllers\\PersonaggioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T19:57:06.973Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersonaggioDTO.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\DTO\\PersonaggioDTO.cs",
-              "RelativeDocumentMoniker": "C#\\DTO\\PersonaggioDTO.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\DTO\\PersonaggioDTO.cs",
-              "RelativeToolTip": "C#\\DTO\\PersonaggioDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:47:57.044Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GiocatoreController.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Controllers\\GiocatoreController.cs",
-              "RelativeDocumentMoniker": "C#\\Controllers\\GiocatoreController.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Controllers\\GiocatoreController.cs",
-              "RelativeToolTip": "C#\\Controllers\\GiocatoreController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T19:57:06.511Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GiocatoreDTO.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\DTO\\GiocatoreDTO.cs",
-              "RelativeDocumentMoniker": "C#\\DTO\\GiocatoreDTO.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\DTO\\GiocatoreDTO.cs",
-              "RelativeToolTip": "C#\\DTO\\GiocatoreDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T09:47:56.596Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GiocatoreRepository.cs",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Repositories\\GiocatoreRepository.cs",
-              "RelativeDocumentMoniker": "C#\\Repositories\\GiocatoreRepository.cs",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Repositories\\GiocatoreRepository.cs",
-              "RelativeToolTip": "C#\\Repositories\\GiocatoreRepository.cs",
+              "Title": "Personaggio.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Models\\Personaggio.cs",
+              "RelativeDocumentMoniker": "C#\\Models\\Personaggio.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Models\\Personaggio.cs",
+              "RelativeToolTip": "C#\\Models\\Personaggio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T12:36:08.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\appsettings.json",
-              "RelativeDocumentMoniker": "C#\\appsettings.json",
-              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\appsettings.json",
-              "RelativeToolTip": "C#\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-16T12:32:45.384Z",
+              "WhenOpened": "2024-05-02T09:11:46.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PersonaggioRepository.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Repositories\\PersonaggioRepository.cs",
+              "RelativeDocumentMoniker": "C#\\Repositories\\PersonaggioRepository.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Repositories\\PersonaggioRepository.cs",
+              "RelativeToolTip": "C#\\Repositories\\PersonaggioRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T08:48:52.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "C#\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "C#\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T08:46:00.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarioKartContext.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Models\\MarioKartContext.cs",
+              "RelativeDocumentMoniker": "C#\\Models\\MarioKartContext.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Models\\MarioKartContext.cs",
+              "RelativeToolTip": "C#\\Models\\MarioKartContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T08:34:57.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Program.cs",
               "RelativeDocumentMoniker": "C#\\Program.cs",
               "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\Program.cs",
               "RelativeToolTip": "C#\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T12:32:38.048Z",
+              "WhenOpened": "2024-05-02T08:31:08.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\appsettings.json",
+              "RelativeDocumentMoniker": "C#\\appsettings.json",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_MarioKart\\C#\\C#\\appsettings.json",
+              "RelativeToolTip": "C#\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-02T08:30:16.372Z",
               "EditorCaption": ""
             }
           ]
