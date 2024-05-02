@@ -1,50 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\",
+  "WorkspaceRootPath": "C:\\Programmazione\\Progetti\\Progetto_Chat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\services\\utenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\services\\utenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\services\\stanzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\services\\stanzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\services\\stanzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\controllers\\stanzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\controllers\\stanzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\repositories\\utenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\repositories\\utenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\services\\messaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\services\\messaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\repositories\\messaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\repositories\\messaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\repositories\\messaggiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\models\\stanza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\models\\stanza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\dto\\stanzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\dto\\stanzadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\repositories\\stanzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\repositories\\stanzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\repositories\\stanzarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\users\\utente\\desktop\\progetto_chat\\progetto_chat\\controllers\\stanzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\controllers\\stanzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\services\\utenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\services\\utenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\services\\messaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\services\\messaggioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\controllers\\messaggiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|c:\\programmazione\\progetti\\progetto_chat\\progetto_chat\\repositories\\utenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F228DDEF-C3AD-4539-A7B1-13320A7064EE}|Progetto_Chat\\Progetto_Chat.csproj|solutionrelative:progetto_chat\\repositories\\utenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "StanzaController.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Controllers\\StanzaController.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Controllers\\StanzaController.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Controllers\\StanzaController.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Controllers\\StanzaController.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Controllers\\StanzaController.cs",
               "RelativeToolTip": "Progetto_Chat\\Controllers\\StanzaController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T12:06:29.968Z",
               "IsPinned": true,
@@ -72,13 +64,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StanzaService.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Services\\StanzaService.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Services\\StanzaService.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Services\\StanzaService.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Services\\StanzaService.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Services\\StanzaService.cs",
               "RelativeToolTip": "Progetto_Chat\\Services\\StanzaService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T11:52:43.468Z",
               "IsPinned": true,
@@ -86,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "StanzaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Repositories\\StanzaRepository.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Repositories\\StanzaRepository.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Repositories\\StanzaRepository.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Repositories\\StanzaRepository.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Repositories\\StanzaRepository.cs",
               "RelativeToolTip": "Progetto_Chat\\Repositories\\StanzaRepository.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAmwJoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T11:23:04.82Z",
               "IsPinned": true,
@@ -100,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UtenteController.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Controllers\\UtenteController.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Controllers\\UtenteController.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Controllers\\UtenteController.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Controllers\\UtenteController.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Controllers\\UtenteController.cs",
               "RelativeToolTip": "Progetto_Chat\\Controllers\\UtenteController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAvwFIAAAATAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAowGwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T13:45:03.576Z",
               "IsPinned": true,
@@ -114,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UtenteService.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Services\\UtenteService.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Services\\UtenteService.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Services\\UtenteService.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Services\\UtenteService.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Services\\UtenteService.cs",
               "RelativeToolTip": "Progetto_Chat\\Services\\UtenteService.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAYwH8AAAAoAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAcwEkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T12:43:23.379Z",
               "IsPinned": true,
@@ -128,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UtenteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Repositories\\UtenteRepository.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Repositories\\UtenteRepository.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Repositories\\UtenteRepository.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Repositories\\UtenteRepository.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Repositories\\UtenteRepository.cs",
               "RelativeToolTip": "Progetto_Chat\\Repositories\\UtenteRepository.cs",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAuwHAAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T12:44:09.988Z",
               "IsPinned": true,
@@ -142,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MessaggioController.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Controllers\\MessaggioController.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Controllers\\MessaggioController.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Controllers\\MessaggioController.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Controllers\\MessaggioController.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Controllers\\MessaggioController.cs",
               "RelativeToolTip": "Progetto_Chat\\Controllers\\MessaggioController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA5wBsAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T15:25:14.7Z",
               "IsPinned": true,
@@ -156,13 +148,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MessaggioService.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Services\\MessaggioService.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Services\\MessaggioService.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Services\\MessaggioService.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Services\\MessaggioService.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Services\\MessaggioService.cs",
               "RelativeToolTip": "Progetto_Chat\\Services\\MessaggioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswCoAAAAZAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T15:25:13.69Z",
               "IsPinned": true,
@@ -170,42 +162,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "MessaggioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Repositories\\MessaggioRepository.cs",
+              "DocumentMoniker": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Repositories\\MessaggioRepository.cs",
               "RelativeDocumentMoniker": "Progetto_Chat\\Repositories\\MessaggioRepository.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Repositories\\MessaggioRepository.cs",
+              "ToolTip": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Repositories\\MessaggioRepository.cs",
               "RelativeToolTip": "Progetto_Chat\\Repositories\\MessaggioRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T15:25:09.637Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StanzaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\DTO\\StanzaDTO.cs",
-              "RelativeDocumentMoniker": "Progetto_Chat\\DTO\\StanzaDTO.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\DTO\\StanzaDTO.cs",
-              "RelativeToolTip": "Progetto_Chat\\DTO\\StanzaDTO.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:18:36.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Stanza.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Models\\Stanza.cs",
-              "RelativeDocumentMoniker": "Progetto_Chat\\Models\\Stanza.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Models\\Stanza.cs",
-              "RelativeToolTip": "Progetto_Chat\\Models\\Stanza.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T17:18:35.789Z",
               "EditorCaption": ""
             }
           ]

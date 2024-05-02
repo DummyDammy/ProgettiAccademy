@@ -64,6 +64,7 @@ namespace Progetto_Chat
 
             app.UseAuthorization();
 
+            app.UseAuthorization();
 
             app.MapControllers();
 

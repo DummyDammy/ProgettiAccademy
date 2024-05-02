@@ -23,7 +23,14 @@ namespace Progetto_Chat.Services
             return stanze.Select(s => new StanzaDTO()
             {
                 Title = s.Titolo,
-                Admin = 
+                Admin = utenteService.ConvertUserToDTO(s.Amministratore),
+                Description = s.Descrizione,
+                Users = s.Utenti.Select(u => new UtenteDTO()
+                {
+                    Nick = u.Nickname,
+                    Password = u.Pass,
+                    Post = u.Email
+                }).ToList()
 
             }).ToList();
         }
@@ -76,7 +83,7 @@ namespace Progetto_Chat.Services
 
         public List<StanzaDTO> GetAllOfUser(UtenteDTO utente)
         {
-            return repository.GetAllOfUser(utenteService.GetUserByNickname(utente));
+            return ConvertListToDTO(repository.GetAllOfUser(utenteService.GetUserByNickname(utente)));
         }
     }
 }

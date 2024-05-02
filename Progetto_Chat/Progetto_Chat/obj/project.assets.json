@@ -3598,11 +3598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Progetto_Chat.csproj",
+      "projectUniqueName": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Progetto_Chat.csproj",
       "projectName": "Progetto_Chat",
-      "projectPath": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\Progetto_Chat.csproj",
+      "projectPath": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\Progetto_Chat.csproj",
       "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utente\\Desktop\\Progetto_Chat\\Progetto_Chat\\obj\\",
+      "outputPath": "C:\\Programmazione\\Progetti\\Progetto_Chat\\Progetto_Chat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
