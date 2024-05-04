@@ -54,6 +54,17 @@ namespace Progetto_Chat.Repositories
         }
         #endregion
 
+        #region Metodi personalizzati
+        public List<Messaggio> GetAllOfRoom(Stanza stanza)
+        {
+            try
+            {
+                return database.GetCollection<Messaggio>("Messaggios").AsQueryable().Where(m => m.StanzaRIFNavigation.Titolo == stanza.Titolo).ToList();
+            }
+            catch { }
 
+            return new List<Messaggio>();
+        }
+        #endregion
     }
 }

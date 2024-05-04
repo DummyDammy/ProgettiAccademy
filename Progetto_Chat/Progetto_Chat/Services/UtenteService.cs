@@ -6,7 +6,7 @@ namespace Progetto_Chat.Services
 {
     public class UtenteService
     {
-        #region repository
+        #region repository / stanzaService
         readonly UtenteRepository repository;
 
         public UtenteService (UtenteRepository repository)
@@ -82,14 +82,6 @@ namespace Progetto_Chat.Services
             return false;
         }
 
-        //public int GetIdByNickname(UtenteDTO utente)
-        //{
-        //    if (utente.Nick is not null)
-        //        return repository.GetIdByNickname(utente.Nick);
-
-        //    return 0;
-        //}
-
         public Utente GetUserByNickname(UtenteDTO utente)
         {
             if (utente.Nick is not null)
@@ -97,15 +89,6 @@ namespace Progetto_Chat.Services
 
             return new Utente();
         }
-
-        //public UtenteDTO GetUserByNicknameDTO(UtenteDTO utente)
-        //{
-        //    if (utente.Nick is not null)
-        //        return ConvertToDTO(GetUserByNickname(utente));
-
-        //    return new UtenteDTO();
-
-        //}
 
         public bool Update(UtenteDTO utente)
         {
@@ -126,6 +109,14 @@ namespace Progetto_Chat.Services
         public UtenteDTO ConvertUserToDTO(Utente utente)
         {
             return ConvertToDTO(utente);
+        }
+
+        public UtenteDTO GetUserByEmail(UtenteDTO utente)
+        {
+            if (utente.Post is not null)
+                return ConvertToDTO(repository.GetUtenteByEmail(utente.Post));
+
+            return new UtenteDTO();
         }
     }
 }

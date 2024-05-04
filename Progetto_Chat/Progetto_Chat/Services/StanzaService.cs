@@ -25,6 +25,7 @@ namespace Progetto_Chat.Services
                 Title = s.Titolo,
                 Admin = utenteService.ConvertUserToDTO(s.Amministratore),
                 Description = s.Descrizione,
+                Messages = ConvertMessageListToDTO(s.Messaggi.ToList()),
                 Users = s.Utenti.Select(u => new UtenteDTO()
                 {
                     Nick = u.Nickname,
@@ -32,6 +33,28 @@ namespace Progetto_Chat.Services
                     Post = u.Email
                 }).ToList()
 
+            }).ToList();
+        }
+
+        StanzaDTO ConvertToDTO(Stanza stanza)
+        {
+            return new StanzaDTO()
+            {
+                Title = stanza.Titolo,
+                Description = stanza.Descrizione,
+                Admin = utenteService.ConvertUserToDTO(stanza.Amministratore),
+                Messages = ConvertMessageListToDTO(stanza.Messaggi.ToList()),
+                Users = stanza.Utenti.Select(u => utenteService.ConvertUserToDTO(u)).ToList()
+            };
+        }
+
+        List<MessaggioDTO> ConvertMessageListToDTO(List<Messaggio> messaggi)
+        {
+            return messaggi.Select(m => new MessaggioDTO()
+            {
+                SendDate = m.DataInvio,
+                Text = m.Testo,
+                Sender = utenteService.ConvertUserToDTO(m.Mittente),
             }).ToList();
         }
         #endregion
@@ -49,7 +72,11 @@ namespace Progetto_Chat.Services
                             Titolo = stanza.Title,
                             Descrizione = stanza.Description,
                             AmministratoreRIF = adminRIF.UtenteID,
-                            Amministratore = adminRIF
+                            Amministratore = adminRIF,
+                            Utenti = new List<Utente>()
+                            {
+                                adminRIF
+                            }
                         });
                 }
 
@@ -84,6 +111,27 @@ namespace Progetto_Chat.Services
         public List<StanzaDTO> GetAllOfUser(UtenteDTO utente)
         {
             return ConvertListToDTO(repository.GetAllOfUser(utenteService.GetUserByNickname(utente)));
+        }
+
+        public List<StanzaDTO> GetRoomsWhereAdmin(UtenteDTO utente)
+        {
+            if(utente.Nick is not null)
+                return ConvertListToDTO(repository.GetRoomsWhereAdmin(utente.Nick));
+
+            return new List<StanzaDTO>();
+        }
+
+        public List<StanzaDTO> GetRoomsWhereNotAdmin(UtenteDTO utente)
+        {
+            if (utente.Nick is not null)
+                return ConvertListToDTO(repository.GetRoomsWhereNotAdmin(utente.Nick));
+
+            return new List<StanzaDTO>();
+        }
+
+        public StanzaDTO GetByTitle(StanzaDTO stanza)
+        {
+            return ConvertToDTO(repository.GetByTitle(stanza.Title));
         }
     }
 }

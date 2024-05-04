@@ -18,7 +18,6 @@ namespace Progetto_Chat.Controllers
         }
         #endregion
 
-
         [HttpPost("{nickname}/{titolo}")]
         public IActionResult Send(MessaggioDTO messaggio, string titolo, string nickname)
         {
@@ -26,6 +25,16 @@ namespace Progetto_Chat.Controllers
             {
                 Stato = "SUCCESS",
                 Data = service.Send(messaggio, new StanzaDTO() { Title = titolo }, new UtenteDTO() { Nick = nickname })
+            });
+        }
+
+        [HttpGet("{titolo}")]
+        public IActionResult GetMessagesOfRoom(string titolo)
+        {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetMessagesOfRoom(new StanzaDTO() { Title = titolo})
             });
         }
     }

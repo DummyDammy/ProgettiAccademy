@@ -37,7 +37,11 @@ namespace Progetto_Chat.Controllers
                 }
             }
 
-            return BadRequest();
+            return Ok(new Status()
+            {
+                Stato = "ERROR",
+                Data = false
+            });
         }
 
         [HttpDelete("{email}/{password}")]
@@ -51,26 +55,6 @@ namespace Progetto_Chat.Controllers
                         Stato = "SUCCESS",
                         Data = true
                     });
-            }
-
-            return BadRequest();
-        }
-
-        [HttpGet("{email}/{password}")]
-        public IActionResult Login(string email, string password)
-        {
-            if (!email.Trim().Equals("") && !password.Equals(""))
-            {
-                string nickname = service.Login(new UtenteDTO() { Post = email, Password = password });
-
-                if (!nickname.Equals(""))
-                {
-                    return Ok(new Status()
-                    {
-                        Stato = "SUCCESS",
-                        Data = nickname
-                    });
-                }
             }
 
             return BadRequest();
@@ -90,7 +74,7 @@ namespace Progetto_Chat.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Loggati(UtenteDTO objLogin)
+        public IActionResult Login(UtenteDTO objLogin)
         {
 
             if (objLogin.Post is not null && !service.Login(objLogin).Equals(""))
@@ -99,7 +83,7 @@ namespace Progetto_Chat.Controllers
                 {
                     new Claim(JwtRegisteredClaimNames.Sub, objLogin.Post),
                     new Claim("UserType", "user"),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 };
 
                 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("your_super_secret_key_your_super_secret_key"));
@@ -113,10 +97,27 @@ namespace Progetto_Chat.Controllers
                     signingCredentials: creds
                     );
 
-                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) , nickname = service.Login(objLogin) });
+                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token), nickname = service.GetUserByEmail(objLogin).Nick});
             }
 
             return Unauthorized();
+        }
+
+        [HttpGet("utenteprofilo")]
+        [AutorizzaUtentePerTipo("user")]
+        public IActionResult DammiInformazioniUtente()
+        {
+            try
+            {
+                return Ok(new Status()
+                {
+                    Stato = "SUCCESS",
+                    Data = User.Claims.Single(p => p.Type == "UserName").Value
+                });
+            }
+            catch { }
+
+            return BadRequest();
         }
     }
 }

@@ -19,9 +19,43 @@ namespace Progetto_Chat.Controllers
         #endregion
 
         [HttpGet("{nickname}")]
-        public IActionResult GetAll(string nickname)
+        public IActionResult GetUserRooms(string nickname)
         {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetAllOfUser(new UtenteDTO() { Nick = nickname})
+            });
+        }
 
+        [HttpGet("title/{titolo}")]
+        public IActionResult GetRoom(string titolo)
+        {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetByTitle(new StanzaDTO() { Title = titolo })
+            });
+        }
+
+        [HttpGet("admin/{nickname}")]
+        public IActionResult GetRoomsWhereAdmin(string nickname)
+        {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetRoomsWhereAdmin(new UtenteDTO() { Nick = nickname})
+            });
+        }
+
+        [HttpGet("partecipante/{nickname}")]
+        public IActionResult GetRoomsWhereNotAdmin(string nickname)
+        {
+            return Ok(new Status()
+            {
+                Stato = "SUCCESS",
+                Data = service.GetRoomsWhereNotAdmin(new UtenteDTO() { Nick = nickname })
+            });
         }
 
         [HttpPost("create")]

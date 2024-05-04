@@ -149,6 +149,41 @@ namespace Progetto_Chat.Repositories
 
             return new List<Stanza>();
         }
+
+        public List<Stanza> GetRoomsWhereAdmin(string nickname)
+        {
+            try
+            {
+                return database.GetCollection<Stanza>("Stanzas").AsQueryable().Where(s => s.Amministratore.Nickname == nickname).ToList();
+            }
+            catch { }
+
+            return new List<Stanza>();
+        }
+
+        public List<Stanza> GetRoomsWhereNotAdmin(string nickname)
+        {
+            try
+            {
+                List<Stanza> lista = database.GetCollection<Stanza>("Stanzas").AsQueryable().Where(s => s.Amministratore.Nickname != nickname).ToList();
+                List<Stanza> temp = new List<Stanza>();
+                foreach(Stanza stanza in lista)
+                {
+                    foreach(Utente utente in stanza.Utenti)
+                    {
+                        if (utente.Nickname.Equals(nickname))
+                        {
+                            temp.Add(stanza);
+                        }
+                    }
+                }
+
+                return temp;
+            }
+            catch { }
+
+            return new List<Stanza>();
+        }
         #endregion
     }
 }

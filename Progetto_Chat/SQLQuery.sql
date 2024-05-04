@@ -9,4 +9,7 @@ CREATE TABLE Utente(
 	email VARCHAR(30) NOT NULL UNIQUE
 );
 
+INSERT INTO Utente (nickname, pass, email) VALUES
+	('Whatsup','1rOjàkcJG-ki?N8fijXGCkliHòiglk','');
+
 SELECT * FROM Utente;

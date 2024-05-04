@@ -1,0 +1,49 @@
+<div class = "container mt-5">
+    <div class = "row">
+        <div class = "col-md-4"></div>
+        <div class = "col-md-4">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="input_email">Email</label>
+                <input [(ngModel)]="email" type = "text" class = "form-control" id = "input_email" placeholder="Inserire Email"/>
+            </div>
+            <div class="form-group">
+                <label for="input_password">Password</label>
+                <input [(ngModel)]="password" type = "password" class = "form-control" id = "input_password" placeholder="Inserire Email"/>
+            </div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaleRegistrazione">Registrati</button>
+            <button style = "margin-left: 5px;" type="button" class="btn btn-primary" (click)="login()">Login</button>
+        </div>
+        <div class = "col-md-4"></div>
+    </div>
+</div>
+
+<div class="modal fade" id="modaleRegistrazione" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modaleRegistrazione">Registrazione</h5>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="register_nickname">Nickname</label>
+                    <input [(ngModel)]="nickname" type = "text" class = "form-control" id = "register_nickname" placeholder="Inserire Nickname"/>
+                </div>
+                <div class="form-group">
+                    <label for="register_email">Email</label>
+                    <input [(ngModel)]="email" type = "text" class = "form-control" id = "register_email" placeholder="Inserire Email"/>
+                </div>
+                <div class="form-group">
+                    <label for="register_password">Password</label>
+                    <input [(ngModel)]="password" type = "password" class = "form-control" id = "register_password" placeholder="Inserire Password"/>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="annulla()">Annulla</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="register()">Registrati</button>
+            </div>
+        </div>
+    </div>
+</div>
+  
+  

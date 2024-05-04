@@ -4,7 +4,7 @@ namespace Progetto_Chat.Repositories
 {
     public class UtenteRepository : IRepository<Utente>
     {
-        #region context
+        #region context / database
         readonly ProgettoChatContext context;
 
         public UtenteRepository (ProgettoChatContext context)

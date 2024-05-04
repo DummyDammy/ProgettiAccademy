@@ -6,7 +6,7 @@ namespace Progetto_Chat.Models
     public class Messaggio
     {
         [BsonId]
-        public ObjectId MessaggioID {  get; set; }
+        public ObjectId MessaggioID { get; set; }
 
         [BsonElement("dataInvio")]
         public DateTime DataInvio { get; set; } = DateTime.Now;

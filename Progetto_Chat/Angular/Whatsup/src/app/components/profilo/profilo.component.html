@@ -1,0 +1,209 @@
+<div class = "container mt-5">
+    <div class = "row">
+        <div class = "col-md-4">
+            <h2 style="margin-top: 2%;">Lista stanze {{ nickname }}  <button type = "button" class = "btn btn-outline-info" data-toggle="modal" data-target="#modaleImpostazioni"><i class="fa-solid fa-gear"></i></button></h2>
+            <div class = "table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrizione</th>
+                        <th>Admin</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of listaStanze">
+                        <td>{{ item.title }}</td>
+                        <td>{{ item.description }}</td>
+                        <td>{{ item.admin.nick }}</td>
+                        <td>
+                            <button type = "button" class="btn btn-info"><i class="fa-solid fa-arrow-right" (click)="pushStanza(item.title)"></i></button>
+                        </td> 
+                    </tr>
+                </tbody>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <h1>{{ stanzaCorrente?.title }}</h1>
+            <hr class="hr" />
+            <!-- Chat -->
+            <div *ngFor="let item of stanzaCorrente?.messages">     
+                <div class="container" *ngIf="nickname == item.sender?.nick; else altro">       
+                    <div class="row">         
+                        <div class="col-8"></div>         
+                        <div class="col-4">           
+                            <p>             
+                                <b>{{ item.sender?.nick }}</b>           
+                            </p>           
+                            <p>{{ item.text }}</p>           
+                            <p style="color: darkgray; font-size: 10px">{{ item.sendDate }}</p>
+                            <hr/>         
+                        </div>       
+                    </div>     
+                </div>      
+                <ng-template #altro>       
+                    <div class="row">         
+                        <div class="col-4">           
+                            <p>             
+                                <b>{{ item.sender?.nick }}</b>           
+                            </p>           
+                            <p>{{ item.text }}</p>           
+                            <p style="color: darkgray; font-size: 10px">{{ item.sendDate }}</p>
+                            <hr/>         
+                        </div>         
+                        <div class="col-8"></div>       
+                    </div>     
+                </ng-template>   
+            </div>
+            <!-- Text box -->
+            <div class = "row">
+                <div class = "col-md-11">
+                    <div class="form-group">
+                        <input [(ngModel)]="messaggio" type = "text" class = "form-control" id = "input_messaggio" style = "border: 1px solid grey;"/>
+                    </div>
+                </div>
+                <div class = "col-md-1">
+                    <button class = "btn btn-outline-info" (click)="inviaMessaggio()"><i class="fa-solid fa-share"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale impostazioni -->
+<div class="modal fade" id="modaleImpostazioni" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modaleImpostazioni">Impostazioni</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <button class="btn btn-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#modaleAggiungiStanza">Crea stanza</button>
+                <button class="btn btn-info btn-block" data-dismiss="modal" data-toggle="modal" data-target="#modaleGestioneStanze" (click)="gestioneStanze()">Gestisci stanze</button>
+                <button class="btn btn-outline-info btn-block" data-dismiss="modal">Gestisci utenza</button>
+                <button class="btn btn-outline-danger btn-block" data-dismiss="modal" (click)="logout()">Logout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale creazione stanza -->
+<div class="modal fade" id="modaleAggiungiStanza" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modaleAggiungiStanza">Crea stanza</h5>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="input_titolo">Titolo stanza</label>
+                    <input [(ngModel)]="inputStanza" type = "text" class = "form-control" id = "input_titolo" placeholder="Inserire titolo"/>
+                </div>
+                <div class="form-group">
+                    <label for="input_descrizione">Descrizione stanza</label>
+                    <input [(ngModel)]="inputDescrizione" type = "text" class = "form-control" id = "input_descrizione" placeholder="Inserire descrizione"/>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info" data-dismiss="modal" data-toggle="modal" data-target="#modaleImpostazioni">Annulla</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#modaleImpostazioni" (click)="creaStanza()">Crea</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale Gestione stanze -->
+<div class="modal fade" id="modaleGestioneStanze" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modaleGestioneStanze">Gestione stanze</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th><h4>Stanze create</h4></th>
+                                        <th></th>
+                                        <th class="text-right">
+                                            <button class = "btn btn-primary" type = "button" data-dismiss="modal" data-toggle="modal" data-target="#modaleAggiungiStanza"><i class="fa-solid fa-plus" ></i></button>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of listaStanzeCreate">
+                                        <td>{{ item.title }}</td>
+                                        <td>{{ item.description }}</td>
+                                        <td class="text-right">
+                                            <button style="margin-left: 3px;" class="btn btn-outline-info" type="button" data-dismiss="modal" data-toggle="modal" data-target="#modaleInserimentoPartecipante"><i class="fa-solid fa-plus"></i></button>
+                                            <button style="margin-left: 3px;" class="btn btn-danger" type="button" (click)="eliminaStanza(item.title)"><i class="fa-solid fa-trash"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th><h4>Stanze a cui partecipi</h4></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of listaStanzePartecipante">
+                                        <td>{{ item.title }}</td>
+                                        <td>{{ item.description }}</td>
+                                        <td class="text-right">
+                                            <button style="margin-left: 3px;" class="btn btn-danger" type="button" (click)="lasciaStanza(item.title)"><i class="fa-solid fa-xmark"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modale inserimento partecipante -->
+<div class="modal fade" id="modaleInserimentoPartecipante" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <table class="table table-striped">
+                                <thead>
+                                    <th><h4>Lista utenti</h4></th>
+                                    <th></th>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of listaStanzePartecipante">
+                                        <td>{{ item.title }}</td>
+                                        <td>{{ item.description }}</td>
+                                        <td class="text-right">
+                                            <button style="margin-left: 3px;" class="btn btn-danger" type="button" (click)="lasciaStanza(item.title)"><i class="fa-solid fa-xmark"></i></button>
+                                        </td>
+                                    </tr>
+                                </tbody> 
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

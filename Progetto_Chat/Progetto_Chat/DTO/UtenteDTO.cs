@@ -1,5 +1,4 @@
-﻿using Progetto_Chat.Models;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Progetto_Chat.DTO
 {
