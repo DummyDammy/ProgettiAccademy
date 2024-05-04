@@ -1,0 +1,1 @@
+Il programma ha una chat funzionante che ancora non si aggiorna ogni mezzo secondo, e per le impostazioni mancano la gestione utenza e la possibilità per gli admin di aggiungere utenti alla propria stanza. Lasciare le stanze ancora non funziona.
